@@ -1,0 +1,131 @@
+@import "./../styles/variables.scss";
+
+.lf__whatfet {
+    display: flex;
+    flex-direction: column;
+
+    padding-left:20%;
+    padding-right: 20%;
+    margin: 0;
+    background: #fff;
+
+    
+}
+
+
+.lf__whatfet-field{
+    display: flex;
+}
+
+.lf__whatfet-field 
+.lf__fields-container__field{
+    margin: 0;
+}
+
+.lf__whatfet-field
+.lf__fields-container__field-text{
+    max-width: 700px;
+
+}
+
+.lf__whatfet-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 4rem 0 2rem;
+}
+
+.lf__whatfet-heading h1{
+    font-weight: 800;
+    max-width: 510px;
+    font-size: 34px;
+    line-height: 45px;
+    color: linear-gradient(43deg, $emphas 0%, $emphas 46%, #222222 100%);
+}
+
+.lf__whatfet-heading p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: black;
+
+}
+
+.lf__whatfet-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+
+/* Customizing feature component as per needs */
+.lf__whatfet-container .lf__fields-container_field-text {
+    margin-top: 0.5rem;
+}
+
+
+.lf_field_sm{
+    max-width: 30%;
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .lf__whatfet {
+       
+    
+        padding-left:10%;
+        padding-right: 10%;
+        margin: 0;
+        background: #fff;
+    
+        
+    }
+    .lf__whatfet-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .ls__whatfet-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    
+    .lf__whatfet-field .lf__fields-container__field {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .lf__whatfet-field .lf__fields-container__field-text {
+        margin-top: 0.5rem;
+    }
+
+    .ls__whatfet-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .lf__whatfet{
+        margin-top: 0;
+        padding-left:4%;
+        padding-right: 4%;
+        margin: 0;
+        background: #fff;
+    }
+
+    .lf__whatfet-container .lf__fields-container__field {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}

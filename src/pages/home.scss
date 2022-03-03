@@ -1,0 +1,120 @@
+@import "./../styles/variables.scss";
+
+.lf__about{
+    display: flex;
+    flex-direction: column;
+    background: #222222;
+}
+
+#about{
+    background-color: #222222;
+}
+
+#imge{
+    width: 85px;
+  height: 6px;
+  background: linear-gradient(43deg, #222222 0%, $emphas 46%, #222222 100%);
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+  margin-bottom: 0.25rem;
+}
+
+
+.section__padding {
+    padding: 4rem 6rem;
+  }
+
+.lf__about-heading{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.lf__about-heading h1{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.lf__about-fpart{
+    
+}
+
+.lf__about-fpart h3{
+    padding-bottom: 2rem;
+    color: #fff;
+    font-size: 30px; 
+    font-weight: 300;   
+}
+
+.lf__about-fpart p{
+    padding-bottom: 2rem;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;   
+}
+
+.contain-fpart{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.contact-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-weight: bold;
+    width: 100%;
+    padding: 0;
+    background: $emphas;
+    color: #222222;
+}
+
+.contact-about p{
+    padding-right: 1rem;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+    
+}
+
+.contact-about p:hover{
+    background: #222222;
+    color: $emphas;
+}
+
+.contact-about p a{
+    text-decoration: none;
+    padding-left: 0.5rem;
+    color: #222222;
+    border-radius: 5px;
+}
+
+.contact-about p a:hover{
+    background-color: #222222;
+    color: $emphas;
+}
+
+@media screen and (max-width: 800px){
+    .contain-fpart{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .lf__about-fpart{
+        padding: 0.8rem;
+    }
+
+    .contact-about{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+   }

@@ -1,0 +1,159 @@
+@import "./../../styles/variables.scss";
+
+.lf__header{
+    display: flex;
+    background-image:    url(./../../assets/bg-law1.jpeg);
+    background-size:cover;                      
+    background-repeat:   no-repeat;
+    background-position: center; 
+    min-height: 500px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 0;
+}
+
+.lf__header-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.lf__header-content h1{
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    background: -webkit-linear-gradient($emphas, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lf__header-content h3{
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+    background: -webkit-linear-gradient($emphas, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.lf__header-content p{
+    color: white;
+    font-weight:700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    background: $emphas;
+    color: #222222;
+    border: 1px solid transparent;
+    transition: 0.3s ease all;
+}
+
+button:hover{
+    border-color: $emphas;
+    background: #222222;
+    color: $emphas;
+}
+
+
+
+
+.lf__header-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lf__header-image img{
+    width: 60%;
+    height: 60%;
+}
+
+@media screen and (max-width: 1050px){
+   .lf__header{
+       flex-direction: column;
+       padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    .lf__header-content{
+        margin: 0 0 3rem;
+    }
+
+    .lf__header-image img{
+        width: 50%;
+        height: 20%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .lf__header{
+        padding-left: 50px;
+         padding-right: 50px;
+         padding-top: 50px;
+         padding-bottom: 150px;
+     }
+
+    .lf__header h1{
+        font-size: 48px;
+        line-height: 60px;
+     }
+
+     .lf__header p{
+        font-size: 16px;
+        line-height: 24px;
+     }
+ 
+     .lf__header-content{
+         margin: 0 0 3rem;
+     }
+
+     .lf__header-image img{
+        width: 40%;
+        height: 20%;
+    }
+ }
+
+ @media screen and (max-width: 490px){
+
+    .lf__header{
+        
+        padding-left: 50px;
+         padding-right: 50px;
+         padding-top: 50px;
+         padding-bottom: 150px;
+     }
+    .lf__header h1{
+        font-size: 36px;
+        line-height: 48px;
+     }
+
+     .lf__header p{
+        font-size: 14px;
+        line-height: 24px;
+     }
+
+     .lf__header-image img{
+        width: 80%;
+        height: 50%;
+    }
+ }

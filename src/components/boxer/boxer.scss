@@ -1,0 +1,82 @@
+@import "./../../styles/variables.scss";
+
+.lf__fields-container__field{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 3000px;
+  max-height: 350px;
+  border: 1px dashed;
+}
+
+.lf__fields-container__field-title{
+  flex: 1;
+  max-width: 180px;
+  margin-right: 2rem;
+}
+
+.lf__fields-container__field-title h1{
+  font-weight: 800;
+  font-size: 24px;
+
+  letter-spacing: -0.04em;
+
+  color: black;
+}
+
+.lf__fields-container__field-title div{
+  width: 55px;
+  height: 6px;
+  background: linear-gradient(43deg, $emphas 0%, $emphas 46%, #222222 100%);
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+  margin-bottom: 0.25rem;
+}
+
+.lf__fields-container__field-text{
+  flex: 2;
+  max-width: 390px;
+  display: flex;
+}
+
+.lf__fields-container__field-text p{
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 24px;
+
+  color: black;
+}
+
+.lf__fields-container__field-image{
+  flex: 2;
+  max-width: 390px;
+  display: flex;
+}
+
+.lf__fields-container__field-image img{
+  
+  width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+
+@media screen and (max-width: 550px){
+ .lf__fields-container__field-title h1{
+     font-size: 16px;
+     line-height: 20px;
+ }
+
+ .lf__fields-container__field-text p{
+  font-size: 14px;
+  line-height: 20px;
+  }
+
+  .lf__fields-container__field{
+      margin: 1rem 0;
+  }
+}

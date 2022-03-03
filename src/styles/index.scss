@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    color: $dark2;
+    font-family: $Poppins;
+}
+
+#root{
+    height: 100%;
+}
+
+.boxer-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
