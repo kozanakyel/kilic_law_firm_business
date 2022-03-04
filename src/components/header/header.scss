@@ -2,7 +2,6 @@
 
 .lf__header{
     display: flex;
-    background-image:    url(./../../assets/bg-law1.jpeg);
     background-size:cover;                      
     background-repeat:   no-repeat;
     background-position: center; 
@@ -10,6 +9,11 @@
     padding-left: 200px;
     padding-right: 200px;
     margin: 0;
+}
+
+
+.lf__header{
+    
 }
 
 .lf__header-content{
@@ -136,12 +140,15 @@ button:hover{
  @media screen and (max-width: 490px){
 
     .lf__header{
-        
         padding-left: 50px;
          padding-right: 50px;
          padding-top: 50px;
          padding-bottom: 150px;
+        
      }
+
+
+
     .lf__header h1{
         font-size: 36px;
         line-height: 48px;

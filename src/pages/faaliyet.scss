@@ -3,9 +3,10 @@
 .lf__whatfet {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    padding-left:20%;
-    padding-right: 20%;
+   
     margin: 0;
     background: #fff;
 
@@ -81,7 +82,7 @@
         padding-left:10%;
         padding-right: 10%;
         margin: 0;
-        background: #fff;
+        background: $emphas;
     
         
     }
@@ -121,7 +122,7 @@
         padding-left:4%;
         padding-right: 4%;
         margin: 0;
-        background: #fff;
+        background: $emphas;
     }
 
     .lf__whatfet-container .lf__fields-container__field {

@@ -1,10 +1,18 @@
 import React from 'react';
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 import './header.scss';
 
-const Header = () => {
+
+const Header = ( { img } ) => {
+
+    const StyleHeader = {        
+        backgroundImage: `url(${process.env.PUBLIC_URL + img})`        
+   
+    }
+
     return (
-        <div className='lf__header section__padding' id='home'>  
+        <div style={ StyleHeader } className='lf__header sm_header section__padding'  id='home'>  
             <div className='lf__header-content' >
                 
                 <p>"Hukukun kuvvetinin azaldığı yerde, kuvvetlinin hukuku geçerli olmaya başlar."

@@ -11,7 +11,9 @@ const Home = () => {
     return (
         <>
             <Navbar />
-            <Header />
+            <Header 
+                img= '/images/bg-law1.jpeg' 
+            />
             <div className='contact-about'>
                 <h3>ILETISIM: </h3>
                 <p><a href="tel:+905067458798"><BsTelephoneInbound size={16} color='#222222'/> 05067458798</a> </p>

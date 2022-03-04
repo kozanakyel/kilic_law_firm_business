@@ -1,0 +1,73 @@
+@import "./../../styles/variables.scss";
+
+.contact-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-weight: bold;
+    width: 100%;
+    padding: 0;
+    background: $emphas;
+    color: #222222;
+    
+}
+
+.contact-about p{
+    padding-right: 1rem;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+    margin-right: 1rem;
+    
+    
+}
+
+.contact-about p a{
+    text-decoration: none;
+    padding-left: 0.5rem;
+    color: #222222;
+    border-radius: 5px;
+    
+}
+
+.contact-about p:hover{
+    background: #222222;
+    color: $emphas;
+    a{
+        background: #222222;
+    color: $emphas;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+
+    .section__padding {
+        padding: 4rem 6rem;
+      }
+
+
+    .contact-about{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .contact-about p{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border-bottom: 1px solid gray;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+   }

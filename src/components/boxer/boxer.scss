@@ -10,9 +10,9 @@
 
   margin: 1rem;
   padding: 1rem;
-  max-width: 3000px;
+  max-width: 350px;
   max-height: 350px;
-  border: 1px dashed;
+  
 }
 
 .lf__fields-container__field-title{
@@ -38,6 +38,24 @@
   margin-bottom: 0.25rem;
 }
 
+.box-link{
+  text-decoration: none;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.box-link:hover{
+  background: #222222;
+  color: $emphas;
+  p{
+    color: $emphas;
+  }
+  h1{
+    color: $emphas;
+  }
+}
+
 .lf__fields-container__field-text{
   flex: 2;
   max-width: 390px;
@@ -54,13 +72,14 @@
 
 .lf__fields-container__field-image{
   flex: 2;
-  max-width: 390px;
+  max-width: 290px;
   display: flex;
 }
 
 .lf__fields-container__field-image img{
   
   width: 100%;
+  
   height: auto;
   max-height: 100px;
 }

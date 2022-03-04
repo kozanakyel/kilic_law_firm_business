@@ -3,6 +3,7 @@ import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import Boxer from "../components/boxer/Boxer";
+import ContactBar from "../components/contactbar/ContactBar";
 import "./faaliyet.scss";
 
 const Faaliyetler = () => {
@@ -28,8 +29,11 @@ const Faaliyetler = () => {
 
 const Faaliyet = () => {
     return <>
+            <ContactBar />
             <Navbar />
-            <Header />
+            <Header 
+                img= '/images/1.jpg' 
+            />           
             
             <Faaliyetler />
             <Footer />
