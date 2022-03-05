@@ -1,10 +1,17 @@
 import React from "react";
+import ContactBar from "../components/contactbar/ContactBar";
+import Footer from "../components/footer/Footer";
+import Header from "../components/header/Header";
 import Navbar from "../components/navbar/Navbar";
 
 const Iletisim = () => {
     return <>
         <Navbar />
-        <h1>Iletisim</h1>
+        <Header
+           img= '/images/law3.jpeg'  
+        />
+        <ContactBar />
+        <Footer />
     </>;
 };
 

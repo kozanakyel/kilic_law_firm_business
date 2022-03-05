@@ -6,6 +6,8 @@ import { Faaliyetler } from "./Faaliyet";
 
 import { BsTelephoneInbound, BsMailbox } from 'react-icons/bs';
 import "./home.scss";
+import Slideshow from "../components/slideshow/SlideShow";
+import ContactBar from "../components/contactbar/ContactBar";
 
 const Home = () => {
     return (
@@ -45,6 +47,8 @@ const Home = () => {
             
             </div>
             <Faaliyetler />
+            <Slideshow />
+            <ContactBar />
             <Footer />
         </>
     );
