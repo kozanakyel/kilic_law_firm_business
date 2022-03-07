@@ -18,9 +18,13 @@
     display: flex;
 }
 
+.lf__whatfet-container{
+    margin-bottom: 4rem;
+}
+
 .lf__whatfet-field 
 .lf__fields-container__field{
-    margin: 0;
+    margin-bottom: 0;
 }
 
 .lf__whatfet-field
@@ -84,7 +88,7 @@
         padding-left:10%;
         padding-right: 10%;
         margin: 0;
-        background: $emphas;
+        background: $light;
     
         
     }

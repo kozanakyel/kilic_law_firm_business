@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import { Faaliyet } from "./pages/Faaliyet";
 import Ekibimiz from "./pages/Ekibimiz";
 import Iletisim from "./pages/Iletisim";
-import Makaleler from "./pages/Makaleler";
+import { Makaleler } from "./pages/Makaleler";
 
 function App() {
     return (

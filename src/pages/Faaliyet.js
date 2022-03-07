@@ -29,13 +29,14 @@ const Faaliyetler = () => {
 
 const Faaliyet = () => {
     return <>
-            <ContactBar />
+            
             <Navbar />
             <Header 
                 img= '/images/1.jpg' 
             />           
             
             <Faaliyetler />
+            <ContactBar />
             <Footer />
     </>;
 };

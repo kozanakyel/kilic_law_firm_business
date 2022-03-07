@@ -12,6 +12,10 @@
   padding: 1rem;
   max-width: 350px;
   max-height: 350px;
+
+  border-radius: 20px;
+/* box-shadow */
+ box-shadow: rgba(0,0,0,0.8) 0 0 10px;
   
 }
 
@@ -45,7 +49,7 @@
   border-radius: 10px;
 }
 
-.box-link:hover{
+.lf__fields-container__field:hover{
   background: #222222;
   color: $emphas;
   p{

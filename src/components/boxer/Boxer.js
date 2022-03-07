@@ -6,22 +6,19 @@ import './boxer.scss';
 const Boxer = ({ title, text }) => {
     return <>
     <div className='lf__fields-container__field'> 
-    <Link to="/faaliyet" className="box-link" >
-        <div className='lf__fields-container__field-image'>
-               <img src={law_big} />
-        </div>
-        <div className='lf__fields-container__field-title'>
-                <div />
-                <h1>{title}</h1>
-        </div>    
-        <div className='lf__fields-container__field-text'>
-               <p>{text} </p>
-        </div>
-    </Link>
-            
-            
-                        
-        </div>
+        <Link to="/faaliyet" className="box-link" >
+            <div className='lf__fields-container__field-image'>
+                   <img src={law_big} alt='fieldimg' />
+            </div>
+            <div className='lf__fields-container__field-title'>
+                    <div />         
+                    <h1>{title}</h1>
+            </div>    
+            <div className='lf__fields-container__field-text'>
+                   <p>{text} </p>
+            </div>
+        </Link>
+    </div>
         
   
     </>;
