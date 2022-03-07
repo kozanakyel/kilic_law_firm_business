@@ -9,6 +9,8 @@ import Slideshow from "../components/slideshow/SlideShow";
 import ContactBar from "../components/contactbar/ContactBar";
 import Blogcard from "../components/blogcard/Blogcard";
 
+import head_data from './../data/head_data';
+
 
 const About = () => {
     return <>
@@ -42,7 +44,8 @@ const Home = () => {
         <>
             <Navbar />
             <Header 
-                img= '/images/bg-law1.jpeg' 
+                img= { head_data[2].img }
+                text= { head_data[2].text }
             />
             <ContactBar />
             <About />

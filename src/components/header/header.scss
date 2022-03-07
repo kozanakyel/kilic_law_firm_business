@@ -26,7 +26,7 @@
     font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04em;
-    background: -webkit-linear-gradient($emphas, #fff);
+    background: -webkit-linear-gradient($emphas, $light);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -35,14 +35,14 @@
     font-size: 30px;
     line-height: 40px;
     letter-spacing: -0.04em;
-    background: -webkit-linear-gradient($emphas, #fff);
+    background: -webkit-linear-gradient($emphas, $light);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 
 .lf__header-content p{
-    color: white;
+    color: $light;
     font-weight:700;
     font-size: 20px;
     line-height: 27px;
@@ -59,14 +59,14 @@ button{
     font-family: inherit;
     font-weight: bold;
     background: $emphas;
-    color: #222222;
+    color: $dark2;
     border: 1px solid transparent;
     transition: 0.3s ease all;
 }
 
 button:hover{
     border-color: $emphas;
-    background: #222222;
+    background: $dark2;
     color: $emphas;
 }
 

@@ -3,18 +3,18 @@
 .lf__about{
     display: flex;
     flex-direction: column;
-    background: #222222;
+    background: $dark2;
 }
 
 #about{
-    background-color: #222222;
+    background-color: $dark2;
 }
 
 #imge{
     width: 85px;
   height: 6px;
-  background: linear-gradient(43deg, #222222 0%, $emphas 46%, #222222 100%);
-  box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+  background: linear-gradient(43deg, $dark2 0%, $emphas 46%, $dark2 100%);
+  box-shadow: 0 4px 4px $dark2;
   margin-bottom: 0.25rem;
 }
 
@@ -34,7 +34,7 @@
     font-size: 45px;
     line-height: 50px;
     letter-spacing: -0.04em;
-    color: #fff;
+    color: $light;
 }
 
 .lf__about-fpart{
@@ -43,14 +43,14 @@
 
 .lf__about-fpart h3{
     padding-bottom: 2rem;
-    color: #fff;
+    color: $light;
     font-size: 30px; 
     font-weight: 300;   
 }
 
 .lf__about-fpart p{
     padding-bottom: 2rem;
-    color: white;
+    color: $light;
     font-size: 18px;
     line-height: 27px;
     font-weight: 300;   

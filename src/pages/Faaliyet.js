@@ -4,6 +4,9 @@ import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import Boxer from "../components/boxer/Boxer";
 import ContactBar from "../components/contactbar/ContactBar";
+
+import head_data from './../data/head_data';
+import faaliyet_data from './../data/faaliyet_data';
 import "./faaliyet.scss";
 
 const Faaliyetler = () => {
@@ -16,11 +19,16 @@ const Faaliyetler = () => {
                </h1>
                <p>Bizi Kesfedin</p>
             </div>  
-            <div className='lf__whatfet-container'>
-                <Boxer title='CEZA HUKUKU' text='Ceza hukuku, suçun unsurları, şartları ve yaptırımlarını düzenleyen kamu hukuku dalıdır.' />
-                <Boxer title='MİRAS HUKUKU' text='Miras hukuku, gerçek kişilerin ölümü sonucu onlara ait mal varlığını inceleyen hukuk dalıdır.' />
-                <Boxer title='AİLE HUKUKU' text='Aile hukuku, aileye ilişkin konularla ilgilenen, medeni hukuk içinde yer alan özel hukuk dalıdır.' />
-                
+            <div className='lf__whatfet-container'>  
+                          
+                {faaliyet_data.map((data, i) => {
+                    return <Boxer 
+                                img={data.img}
+                                title={data.title}
+                                text={data.text} 
+                        />                  
+                    }
+                )}
                 
             </div>                    
         </div>
@@ -32,8 +40,9 @@ const Faaliyet = () => {
             
             <Navbar />
             <Header 
-                img= '/images/1.jpg' 
-            />           
+                img= { head_data[1].img }
+                text= { head_data[1].text }  
+            />          
             
             <Faaliyetler />
             <ContactBar />

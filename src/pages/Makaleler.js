@@ -3,6 +3,8 @@ import Navbar from "../components/navbar/Navbar";
 import Header from "../components/header/Header";
 import ContactBar from "../components/contactbar/ContactBar";
 import Footer from "../components/footer/Footer";
+
+import head_data from './../data/head_data';
 import './makaleler.scss';
 
 const Makale = () => {
@@ -121,7 +123,8 @@ const Makaleler = () => {
     return <>
         <Navbar />
         <Header 
-          img= '/images/bg-law1.jpeg'   
+          img= { head_data[4].img }
+          text= { head_data[4].text }   
         />
         <ContactBar />
         <div className="article-entry-title">

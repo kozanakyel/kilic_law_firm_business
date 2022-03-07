@@ -14,7 +14,7 @@ img{
 
 
 .header {
-    background: $dark;
+    background: $dark2;
     width: 100%;
     height: $navbarHeight;
     padding: 0 1.5rem;
@@ -64,7 +64,7 @@ img{
             justify-content: center;
             align-items: center;
             text-align: center;
-            background: rgba($dark, 0.9);
+            background: rgba($dark2, 0.9);
             backdrop-filter: blur(2px);
             transform: translate(0);
             transition: 0.3s ease transform;
@@ -122,7 +122,7 @@ img{
                 font-size: 1rem;
                 font-family: inherit;
                 background: $emphas;
-                color: $dark;
+                color: $dark2;
                 border: 1px solid transparent;
                 transition: 0.3s ease all;
 

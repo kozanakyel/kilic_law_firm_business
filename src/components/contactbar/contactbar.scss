@@ -10,7 +10,7 @@
     width: 100%;
     padding: 0;
     background: $emphas;
-    color: #222222;
+    color: $dark2;
     
 }
 
@@ -26,16 +26,16 @@
 .contact-about p a{
     text-decoration: none;
     padding-left: 0.5rem;
-    color: #222222;
+    color: $dark2;
     border-radius: 5px;
     
 }
 
 .contact-about p:hover{
-    background: #222222;
+    background: $dark2;
     color: $emphas;
     a{
-        background: #222222;
+        background: $dark2;
     color: $emphas;
     }
 }

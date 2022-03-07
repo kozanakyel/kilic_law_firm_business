@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import law_big from '../../assets/ame_law.jpg';
 import './boxer.scss';
 
-const Boxer = ({ title, text }) => {
+const Boxer = ({ img, title, text }) => {
     return <>
     <div className='lf__fields-container__field'> 
         <Link to="/faaliyet" className="box-link" >
             <div className='lf__fields-container__field-image'>
-                   <img src={law_big} alt='fieldimg' />
+                   <img src={img} alt='fieldimg' />
             </div>
             <div className='lf__fields-container__field-title'>
                     <div />         
