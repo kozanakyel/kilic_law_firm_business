@@ -63,7 +63,14 @@
 
 }
 
-
+.article-entry-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
 
 
 

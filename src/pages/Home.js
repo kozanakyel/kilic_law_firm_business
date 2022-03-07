@@ -58,6 +58,20 @@ const Home = () => {
                 text. It has roots in a piece of classical Latin literature 
                 from 45 BC'
             />
+            <Blogcard 
+                date= '16.12.2021'
+                title='Son verilen hukumler'
+                subtext='Contrary to popular belief, Lorem Ipsum is not simply random 
+                text. It has roots in a piece of classical Latin literature 
+                from 45 BC'
+            />
+            <Blogcard 
+                date= '16.12.2021'
+                title='toplumsal olaylarin etkisi'
+                subtext='Contrary to popular belief, Lorem Ipsum is not simply random 
+                text. It has roots in a piece of classical Latin literature 
+                from 45 BC'
+            />
             <ContactBar />
             <Footer />
         </>
