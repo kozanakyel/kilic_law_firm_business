@@ -13,9 +13,10 @@
   max-width: 350px;
   max-height: 350px;
 
-  border-radius: 20px;
+  border-top-left-radius: 15em 1em;
+  border-bottom-right-radius: 15em 1em;
 /* box-shadow */
- box-shadow: $dark2 0 0 10px;
+ box-shadow: $emphas 0 0 10px;
   
 }
 
@@ -53,10 +54,10 @@
   background: $dark2;
   color: $emphas;
   p{
-    color: $emphas;
+    color: $light;
   }
   h1{
-    color: $emphas;
+    color: $light;
   }
 }
 
@@ -101,5 +102,18 @@
 
   .lf__fields-container__field{
       margin: 1rem 0;
+     
   }
+
+  .lf__fields-container__field{
+    background: $dark2;
+    color: $emphas;
+    p{
+      color: $light;
+    }
+    h1{
+      color: $light;
+    }
+  }
+
 }

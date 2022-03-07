@@ -12,7 +12,7 @@ const head_data = [
         text: 'Hukuk, demokraside azınlıkların haklarını ve özgürlüklerini koruma aracıdır. (Alfred E. Smith)'
     },
     {
-        img: '/images/header_img/h_iletisim.jpg',
+        img: '/images/header_img/iletisim.jpg',
         text: 'Hukuk ile medeniyet ve kültürleri arasında ahenk kuramayan cemiyetler bedbahttırlar. (Falih Rıfkı Atay)'
     },
     {

@@ -10,6 +10,7 @@ import ContactBar from "../components/contactbar/ContactBar";
 import Blogcard from "../components/blogcard/Blogcard";
 
 import head_data from './../data/head_data';
+import { faaliyet_data_sm } from "../data/faaliyet_data";
 
 
 const About = () => {
@@ -49,7 +50,7 @@ const Home = () => {
             />
             <ContactBar />
             <About />
-            <Faaliyetler />
+            <Faaliyetler data_fa={ faaliyet_data_sm }/>
             <Slideshow />
             <div className="article-entry-title">
                 <h1>Makalelerimiz</h1>

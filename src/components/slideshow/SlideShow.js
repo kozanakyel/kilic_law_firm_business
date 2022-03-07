@@ -1,13 +1,26 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
+
 import 'react-slideshow-image/dist/styles.css'
 import './slideshow.scss';
+import staff_info from '../../data/staff_info';
 
 const slideImages = [
-  'images/p1.jpg',
-  'images/p2.jpg',
-  'images/p3.jpeg'
+  'images/staff_img/p1.jpg',
+  'images/staff_img/p2.jpg',
+  'images/staff_img/p3.jpeg'
 ];
+
+const Eachslide = ({ staff }) => {
+    return <>
+        <div className="each-slide">
+            <div className='img-content' style={{'backgroundImage': `url(${process.env.PUBLIC_URL + staff.img})` }}>
+                <span>{staff.name}</span>
+                <span>{staff.role}</span>
+            </div>
+        </div>
+    </>
+}
 
 const Slideshow = () => {
     return (<>
@@ -21,24 +34,11 @@ const Slideshow = () => {
                 
                 <div className="slide-container">
                     <Slide easing="ease" style={{'justifyContent': `center`, 'alignItems': 'center'}}>
-                        <div className="each-slide">
-                            <div className='img-content' style={{'backgroundImage': `url(${process.env.PUBLIC_URL + slideImages[0]})` }}>
-                            <span>Kadir CETINKAYA</span>
-                                <span>Avukat</span>
-                            </div>
-                        </div>
-                        <div className="each-slide">
-                            <div className='img-content' style={{'backgroundImage': `url(${process.env.PUBLIC_URL + slideImages[1]})`}}>
-                                <span>Kadir CETINKAYA</span>
-                                <span>Avukat</span>
-                            </div>
-                        </div>
-                        <div className="each-slide">
-                            <div className='img-content' style={{'backgroundImage': `url(${process.env.PUBLIC_URL + slideImages[2]})`}}>
-                                <span>Kadir CETINKAYA</span>
-                                <span>Avukat</span>
-                            </div>
-                        </div>
+                        {staff_info.map((staff, i) => {
+                                return <Eachslide staff={ staff } />                  
+                            }
+                        )}
+                        
                     </Slide>
                 </div>       
                 </div>

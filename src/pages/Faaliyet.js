@@ -6,10 +6,10 @@ import Boxer from "../components/boxer/Boxer";
 import ContactBar from "../components/contactbar/ContactBar";
 
 import head_data from './../data/head_data';
-import faaliyet_data from './../data/faaliyet_data';
+import { faaliyet_data } from './../data/faaliyet_data';
 import "./faaliyet.scss";
 
-const Faaliyetler = () => {
+const Faaliyetler = ({ data_fa }) => {
     return <>
         <div className='lf__whatfet section__margin' id='whatfet'>
              
@@ -21,7 +21,7 @@ const Faaliyetler = () => {
             </div>  
             <div className='lf__whatfet-container'>  
                           
-                {faaliyet_data.map((data, i) => {
+                {data_fa.map((data, i) => {
                     return <Boxer 
                                 img={data.img}
                                 title={data.title}
@@ -44,7 +44,7 @@ const Faaliyet = () => {
                 text= { head_data[1].text }  
             />          
             
-            <Faaliyetler />
+            <Faaliyetler data_fa={faaliyet_data} />
             <ContactBar />
             <Footer />
     </>;

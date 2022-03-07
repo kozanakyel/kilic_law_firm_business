@@ -1,0 +1,41 @@
+@import "./../styles/variables.scss";
+
+.contact-title-only{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2rem;
+}
+
+
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 4rem;
+}
+
+.contact-tel, .contact-mail, .contact-address{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.contact-container p{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.contact-address p{
+    max-width: 250px;
+}
+
