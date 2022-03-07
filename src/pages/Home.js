@@ -51,6 +51,7 @@ const Home = () => {
             <div className="article-entry-title">
                 <h1>Makalelerimiz</h1>
             </div>
+            <div className="home-blog-card">
             <Blogcard 
                 date= '16.12.2021'
                 title='Hukukun Gelecegi'
@@ -72,6 +73,8 @@ const Home = () => {
                 text. It has roots in a piece of classical Latin literature 
                 from 45 BC'
             />
+            </div>
+            
             <ContactBar />
             <Footer />
         </>

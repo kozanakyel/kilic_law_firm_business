@@ -1,5 +1,4 @@
 import React from 'react';
-import { BsTelephonePlus} from 'react-icons/bs';
 import './footer.scss';
 import f_img from './../../assets/ame_law.jpg';
 
@@ -9,10 +8,10 @@ const Footer = () => (
       <div className="gpt3__footer-links_logo">
         <img src={f_img} alt="gpt3_logo" />
         <h3>Kilic&Cetinkaya </h3>
-        <h7>Avukatlik Burosu</h7> 
+        <h5>Avukatlik Burosu</h5> 
         <p>Iletisim</p>
         
-        <p><p> 085-132567</p></p>
+        <p> 085-132567</p>
         <p>info@kiliccetinkaya.net</p>
       </div>
       <div className="gpt3__footer-links_div">

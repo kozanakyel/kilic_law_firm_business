@@ -72,6 +72,17 @@
     padding: 1rem;
 }
 
+.home-blog-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
 
 
 
@@ -92,6 +103,25 @@
         padding: 0.8rem;
     }
 
+    .lf__about-heading h1{
+        font-size: 40px; 
+        font-weight: 300; 
+    }
+
+    .lf__about-fpart h3{
+        padding-bottom: 2rem;
+        color: $light;
+        font-size: 23px; 
+        font-weight: 200;   
+    }
+    
+    .lf__about-fpart p{
+        padding-bottom: 2rem;
+        color: $light;
+        font-size: 15px;
+        line-height: 19px;
+        font-weight: 200;   
+    }
     
     
 
