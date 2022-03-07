@@ -8,7 +8,7 @@
 
    
     margin: 0;
-    background: #fff;
+    background: $light;
 
     
 }
@@ -47,14 +47,14 @@
     max-width: 510px;
     font-size: 34px;
     line-height: 45px;
-    color: linear-gradient(43deg, $emphas 0%, $emphas 46%, #222222 100%);
+    color: linear-gradient(43deg, $emphas 0%, $emphas 46%, $dark2 100%);
 }
 
 .lf__whatfet-heading p{
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-    color: black;
+    color: $dark2;
 
 }
 
@@ -88,7 +88,7 @@
         padding-left:10%;
         padding-right: 10%;
         margin: 0;
-        background: $light;
+       
     
         
     }
@@ -105,9 +105,13 @@
 
 @media screen and (max-width: 650px) {
     /* Customizing feature component as per needs */
+    .lf__whatfet {
+        background: $emphas;
+    }
     
     .lf__whatfet-field .lf__fields-container__field {
         flex-direction: column;
+        background: $emphas;
     }
 
     /* Customizing feature component as per needs */
