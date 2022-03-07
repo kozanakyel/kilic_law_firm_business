@@ -7,7 +7,12 @@
 }
 
 #about{
-    background-color: $dark2;
+    background: $dark2;
+    /*
+    background: #232526; 
+    background: -webkit-linear-gradient(to right, #232526, #414345); 
+    background: linear-gradient(to right, #232526, #414345);
+  */
 }
 
 #imge{

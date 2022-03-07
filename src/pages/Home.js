@@ -11,6 +11,7 @@ import Blogcard from "../components/blogcard/Blogcard";
 
 import head_data from './../data/head_data';
 import { faaliyet_data_sm } from "../data/faaliyet_data";
+import articles from "../data/articles_content";
 
 
 const About = () => {
@@ -56,27 +57,13 @@ const Home = () => {
                 <h1>Makalelerimiz</h1>
             </div>
             <div className="home-blog-card">
-            <Blogcard 
-                date= '16.12.2021'
-                title='Hukukun Gelecegi'
-                subtext='Contrary to popular belief, Lorem Ipsum is not simply random 
-                text. It has roots in a piece of classical Latin literature 
-                from 45 BC'
-            />
-            <Blogcard 
-                date= '16.12.2021'
-                title='Son verilen hukumler'
-                subtext='Contrary to popular belief, Lorem Ipsum is not simply random 
-                text. It has roots in a piece of classical Latin literature 
-                from 45 BC'
-            />
-            <Blogcard 
-                date= '16.12.2021'
-                title='toplumsal olaylarin etkisi'
-                subtext='Contrary to popular belief, Lorem Ipsum is not simply random 
-                text. It has roots in a piece of classical Latin literature 
-                from 45 BC'
-            />
+            {articles.map((article, i) => {
+                return <Blogcard 
+                        article={ article }
+                       />               
+                }
+            )}
+            
             </div>
             
             <ContactBar />

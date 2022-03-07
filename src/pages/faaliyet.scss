@@ -107,11 +107,19 @@
     /* Customizing feature component as per needs */
     .lf__whatfet {
         background: $emphas;
+
+        /*
+        background: #f7971e; 
+        background: -webkit-linear-gradient(to bottom, #f7971e, #ffd200); 
+        background: linear-gradient(to bottom, #f7971e, #ffd200);
+        */
     }
     
     .lf__whatfet-field .lf__fields-container__field {
         flex-direction: column;
-        background: $emphas;
+        //background: $emphas;
+
+        
     }
 
     /* Customizing feature component as per needs */

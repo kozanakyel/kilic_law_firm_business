@@ -23,10 +23,8 @@ const Faaliyetler = ({ data_fa }) => {
                           
                 {data_fa.map((data, i) => {
                     return <Boxer 
-                                img={data.img}
-                                title={data.title}
-                                text={data.text} 
-                        />                  
+                                data={ data } 
+                           />                  
                     }
                 )}
                 

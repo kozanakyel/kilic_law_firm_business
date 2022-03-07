@@ -21,6 +21,10 @@ const articles = [
         and a search for 'lorem ipsum' will uncover many web sites still in their \
         infancy. Various versions have evolved over the years, sometimes by accident,\
         sometimes on purpose (injected humour and the like).",
+        // eslint-disable-next-line no-multi-str
+        subtext: 'Contrary to popular belief, Lorem Ipsum is not simply random \
+                text. It has roots in a piece of classical Latin literature \
+                from 45 BC',
         writer: 'Av. Kursat AKYEL'
     },
     {
@@ -45,6 +49,10 @@ const articles = [
         and a search for 'lorem ipsum' will uncover many web sites still in their \
         infancy. Various versions have evolved over the years, sometimes by accident,\
         sometimes on purpose (injected humour and the like).",
+        // eslint-disable-next-line no-multi-str
+        subtext: 'Contrary to popular belief, Lorem Ipsum is not simply random \
+                text. It has roots in a piece of classical Latin literature \
+                from 45 BC',
         writer: 'Av. Kursat AKYEL'
     },
     {
@@ -69,7 +77,13 @@ const articles = [
         and a search for 'lorem ipsum' will uncover many web sites still in their \
         infancy. Various versions have evolved over the years, sometimes by accident,\
         sometimes on purpose (injected humour and the like).",
+        // eslint-disable-next-line no-multi-str
+        subtext: 'Contrary to popular belief, Lorem Ipsum is not simply random \
+                text. It has roots in a piece of classical Latin literature \
+                from 45 BC',
         writer: 'Av. Kursat AKYEL'
-    },
+    }
 
 ]
+
+export default articles;
