@@ -16,7 +16,7 @@
   border-top-left-radius: 15em 1em;
   border-bottom-right-radius: 15em 1em;
 /* box-shadow */
- box-shadow: $emphas 0 0 10px;
+  box-shadow: $emphas 0 0 10px;
   
 }
 
@@ -29,9 +29,7 @@
 .lf__fields-container__field-title h1{
   font-weight: 800;
   font-size: 24px;
-
   letter-spacing: -0.04em;
-
   color: $dark2;
 }
 
@@ -89,15 +87,15 @@
   max-height: 100px;
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 650px){
  .lf__fields-container__field-title h1{
      font-size: 16px;
      line-height: 20px;
  }
 
  .lf__fields-container__field-text p{
-  font-size: 14px;
-  line-height: 20px;
+     font-size: 14px;
+     line-height: 20px;
   }
 
   .lf__fields-container__field{
