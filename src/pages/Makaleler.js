@@ -46,9 +46,11 @@ const Makaleler = () => {
         </div>
 
         {articles.map((article, i) => {
-            return <Makale 
+            return <div key={i}>
+                    <Makale 
                       article={ article }
-                  />               
+                  />  
+                  </div>             
             }
         )}
         

@@ -24,10 +24,14 @@ const Contactmap = () => {
                        loading="lazy"></iframe>
                </div>
                <div className="contact-tel-mail">
-                   <div className="contact-tel">
+                   {/**
+                    * <div className="contact-tel">
                        <BsFillTelephoneFill size={32} />
                        <p>+905674839</p>
-                   </div>  
+                      </div> 
+                    * 
+                    */}
+                    
                    <div className="contact-mail">
                        <BsMailbox2 size={32} />
                        <p>info@kilic@gmail.com</p>

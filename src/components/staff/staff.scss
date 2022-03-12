@@ -1,0 +1,36 @@
+@import "./../../styles/variables.scss";
+
+.staff-container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 1rem;
+}
+
+.staff-img img{
+    width: 200px;
+    height: 150px;
+}
+
+.staff-name{
+    padding: 1rem;
+}
+
+
+.staff-info span{
+    font-weight: bold;
+}
+
+.staff-cv{
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 850px){
+    .staff-container{
+        
+        flex-direction: column;
+        
+    }
+
+}

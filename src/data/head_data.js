@@ -4,7 +4,7 @@ const head_data = [
         text: 'Hukukun kuvvetinin azaldığı yerde, kuvvetlinin hukuku geçerli olmaya başlar. Maurice DUVERGER'
     },
     {
-        img: '/images/header_img/antep2.jpeg',
+        img: '/images/header_img/antep4.jpg',
         text: 'Adalet önce devletten gelir. Çünkü hukuk, devletin toplumsal düzenidir. Aristo'
     },
     {
@@ -16,7 +16,7 @@ const head_data = [
         text: 'Hukuk ile medeniyet ve kültürleri arasında ahenk kuramayan cemiyetler bedbahttırlar. (Falih Rıfkı Atay)'
     },
     {
-        img: '/images/header_img/makaleler.png',
+        img: '/images/header_img/antep5.jpeg',
         text: 'İyi bir hukukçu, suçluları cezalandırmaktan çok, suçu önlemeyi düşünmelidir. (Charles de Montesquieu)'
     }
 
