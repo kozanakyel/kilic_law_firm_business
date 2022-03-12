@@ -14,13 +14,13 @@ img{
 
 
 .header {
-    background:$dark2;
+    /*background:$dark2;*/
 
-    /*
-    background: #232526; 
-    background: -webkit-linear-gradient(to right, #232526, #414345); 
-    background: linear-gradient(to right, #232526, #414345);
-    */
+    
+    background: #213033; 
+    background: -webkit-linear-gradient(to right, #213033, #414345); 
+    background: linear-gradient(to right, #213033, #414345);
+    
 
     width: 100%;
     height: $navbarHeight;
@@ -128,20 +128,20 @@ img{
                 border-radius: $borderRadius;
                 font-size: 1rem;
                 font-family: inherit;
-                background: $emphas;
-                color: $dark2;
+                background: $dark2;
+                color: $emphas;
                 border: 1px solid transparent;
                 transition: 0.3s ease all;
 
                 &:hover {
-                    border-color: $emphas;
+                    border-color: $dark2;
                     background: rgba($emphas, 0.1);
                     color: $emphas;
                 }
                 &:active {
-                    border-color: $emphas;
-                    background: linear-gradient(rgba($emphas, 0.2), rgba($emphas, 0.3));
-                    color: $emphas;
+                    border-color: $dark2;
+                    background: linear-gradient(rgba($dark2, 0.2), rgba($dark2, 0.3));
+                    color: $dark2;
                 }
             }
 

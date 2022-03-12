@@ -21,14 +21,16 @@
     margin-right: 5rem;
 }
 
+/*
 .lf__header-content h1{
     font-weight: 800;
     font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04em;
     background: -webkit-linear-gradient($emphas, $light);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    color: $white;
 }
 
 .lf__header-content h3{
@@ -36,18 +38,22 @@
     line-height: 40px;
     letter-spacing: -0.04em;
     background: -webkit-linear-gradient($emphas, $light);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    color: $white;
 }
+
+*/
 
 
 .lf__header-content p{
-    color: $light;
+    
     font-weight:700;
     font-size: 20px;
     line-height: 27px;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+    color: $white;
 }
 
 button{
@@ -58,16 +64,16 @@ button{
     font-size: 1rem;
     font-family: inherit;
     font-weight: bold;
-    background: $emphas;
-    color: $dark2;
+    background: $dark2;
+    color: $emphas;
     border: 1px solid transparent;
     transition: 0.3s ease all;
 }
 
 button:hover{
-    border-color: $emphas;
-    background: $dark2;
-    color: $emphas;
+    border-color: $dark2;
+    background: $emphas;
+    color: $dark2;
 }
 
 

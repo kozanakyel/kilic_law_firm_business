@@ -35,7 +35,9 @@ const Slideshow = () => {
                 <div className="slide-container">
                     <Slide easing="ease" style={{'justifyContent': `center`, 'alignItems': 'center'}}>
                         {staff_info.map((staff, i) => {
-                                return <Eachslide staff={ staff } />                  
+                                return <div key={i}>
+                                        <Eachslide staff={ staff } />                  
+                                        </div>
                             }
                         )}
                         

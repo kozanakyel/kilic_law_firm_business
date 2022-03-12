@@ -49,7 +49,7 @@ const Home = () => {
                 img= { head_data[2].img }
                 text= { head_data[2].text }
             />
-            <ContactBar />
+            
             <About />
             <Faaliyetler data_fa={ faaliyet_data_sm }/>
             <Slideshow />
@@ -58,9 +58,11 @@ const Home = () => {
             </div>
             <div className="home-blog-card">
             {articles.map((article, i) => {
-                return <Blogcard 
+                return <div key={i}>
+                        <Blogcard 
                         article={ article }
-                       />               
+                       />
+                      </div>                
                 }
             )}
             

@@ -20,7 +20,7 @@ const Contactmap = () => {
                        width="400" 
                        height="350" 
                        style={{ border: "0", borderRadius: "20px" }}
-                       allowfullscreen="" 
+                       allowFullScreen="" 
                        loading="lazy"></iframe>
                </div>
                <div className="contact-tel-mail">

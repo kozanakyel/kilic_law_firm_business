@@ -22,9 +22,11 @@ const Faaliyetler = ({ data_fa }) => {
             <div className='lf__whatfet-container'>  
                           
                 {data_fa.map((data, i) => {
-                    return <Boxer 
+                    return <div key={i}>
+                            <Boxer 
                                 data={ data } 
-                           />                  
+                           /> 
+                          </div>                 
                     }
                 )}
                 
