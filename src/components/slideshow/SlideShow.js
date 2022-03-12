@@ -5,12 +5,6 @@ import 'react-slideshow-image/dist/styles.css'
 import './slideshow.scss';
 import staff_info from '../../data/staff_info';
 
-const slideImages = [
-  'images/staff_img/p1.jpg',
-  'images/staff_img/p2.jpg',
-  'images/staff_img/p3.jpeg'
-];
-
 const Eachslide = ({ staff }) => {
     return <>
         <div className="each-slide">
