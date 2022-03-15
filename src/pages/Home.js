@@ -15,6 +15,21 @@ import articles from "../data/articles_content";
 
 
 const About = () => {
+
+    const etahsilat ={
+        display: 'block',
+        width: '300px',
+        height: '120px',
+        textDecoration: 'none',
+        color: '#444',
+        backgroundImage: 'url(https://pos.param.com.tr/Tahsilat/images/etahsilat.png)',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        font:'bold 13px Tahoma',
+        padding: '12px 10px 30px 105px'
+
+    }
+
     return <>
         <div className='lf__aboout section__padding' id='about'> 
             <div className='lf__about-heading'>
@@ -33,6 +48,7 @@ const About = () => {
                     the word in classical literature, discovered the undoubtable 
                     source. 
                     </p>
+                    <a style={ etahsilat } href="https://pos.param.com.tr/Tahsilat/Default.aspx?k=b153b8d7-4f93-4af8-ae95-bf989d2fdfb7" target="_blank" rel="noreferrer">ÇETİNKAYA HUKUK<br />ÖDEME YAPMAK İÇİN TIKLAYINIZ</a>
                 </div>
             </div>
         </div>
