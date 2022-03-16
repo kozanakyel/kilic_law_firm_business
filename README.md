@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Law Firm Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was Freelanced by me for KILIC&CETINKAYA law firm with Reactjs.
+Responsive and interractive website for customer request. Deployment and development via the Heroku for client testing.
+All the rights reserved by the Kilic&Cetinkaya hukuk burosu any information related this firm. Not copy accepted.
+
+- https://law-firm-kilic.herokuapp.com/
 
 ## Available Scripts
 
