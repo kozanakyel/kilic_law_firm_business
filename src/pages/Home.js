@@ -16,19 +16,6 @@ import articles from "../data/articles_content";
 
 const About = () => {
 
-    const etahsilat ={
-        display: 'block',
-        width: '300px',
-        height: '120px',
-        textDecoration: 'none',
-        color: '#444',
-        backgroundImage: 'url(https://pos.param.com.tr/Tahsilat/images/etahsilat.png)',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        font:'bold 13px Tahoma',
-        padding: '12px 10px 30px 105px'
-
-    }
 
     return <>
         <div className='lf__aboout section__padding' id='about'> 
@@ -38,17 +25,18 @@ const About = () => {
             </div>
             <div className="contain-fpart">
                 <div className='lf__about-fpart'>
-                    <h3>What is Lorem Ipsum?</h3>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random 
-                    text. It has roots in a piece of classical Latin literature 
-                    from 45 BC, making it over 2000 years old. Richard McClintock, 
-                    a Latin professor at Hampden-Sydney College in Virginia, 
-                    looked up one of the more obscure Latin words, consectetur, 
-                    from a Lorem Ipsum passage, and going through the cites of 
-                    the word in classical literature, discovered the undoubtable 
-                    source. 
+                    <p>Ofisimiz Antalya’da olup Burdur, Isparta, Denizli ve Türkiye’nin 
+                        diğer önemli ticari merkezlerindeki bürolarla işbirliği yapmaktayız.
+                    Büromuz, bireysel ve kurumsal müvekkillerine, ceza davaları, ticaret hukuku, 
+                    enerji hukuku, rekabet hukuku, aile hukuku (boşanma, miras, mal paylaşımı, velayet, nafaka, 
+                    soy bağı davaları vs.), 
+                    iş hukuku, tazminat davaları, icra takipleri gibi alanlarda danışmanlık ve dava takip hizmeti sunmaktadır.
+                    Ofis olarak müvekkillerimizin başarısını, kendi başarımızdan öncelikli tutarız. Müvekkillerimizin değişen ihtiyaçlarına daha doğru ve etkin bir şekilde cevap verebilmek için onların faaliyet gösterdiği sektörlerdeki gelişmeleri yakından takip eder, bu sektörlerde sadece hukuki değil ticari bilgileri de edinerek bilgilerimizi derinleştiririz. Bu amaçlarla ulusal ve uluslararası mesleki ve ticari dernek ve 
+                     kuruluşların çalışmalarına etkin olarak katılır, bilgi ve tecrübelerimizi paylaşarak katkıda bulunuruz.
+                    Büromuz, hizmetlerini müvekkillerimizin değişen ihtiyaçlarına uygun olarak geliştirmeye ve yenilikçi, 
+                    kaliteli hizmetler sunmaya kararlıdır 
                     </p>
-                    <a style={ etahsilat } href="https://pos.param.com.tr/Tahsilat/Default.aspx?k=b153b8d7-4f93-4af8-ae95-bf989d2fdfb7" target="_blank" rel="noreferrer">ÇETİNKAYA HUKUK<br />ÖDEME YAPMAK İÇİN TIKLAYINIZ</a>
+                    
                 </div>
             </div>
         </div>

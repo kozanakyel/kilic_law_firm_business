@@ -321,6 +321,100 @@ const articles = [
         da tamamının kendi hissesini ayırmak istemesi durumunda ise \
         ortaklığın giderilmesi davası açılması gerekir.',
         writer: 'Kilic | Cetinkaya'
+    },
+    {
+        id: 104,
+        title: 'MTS NEDIR?',
+        date: '11.08.2020',
+        // eslint-disable-next-line no-multi-str
+        content: Parser('<p><a name="_GoBack"></a> \
+        <font color="#636363"><font face="Verdana, serif"><font size="4" style="font-size: 15pt">MTS \
+        NEDİR?</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">MTS \
+        uzun adı Merkezi takip sistemi olan&nbsp; ve 06.12.2018 tarihinde \
+        yayınlanmış olan “ABONELİK SÖZLEŞMESİNDEN KAYNAKLANAN PARA \
+        ALACAKLARINA İLİŞKİN TAKİBİN BAŞLATILMASI USULÜ HAKKINDA \
+        KANUN” ile mevzuatımıza giren bir alacak tahsili yöntemidir.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Kanuna \
+        ilişkin yönetmelik de 29.05.2019 tarihinde yayınlanmıştır.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>MTS \
+        (Merkezi Takip Sistemi) Nedir ?</b></font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Avukatlar \
+        tarafından yürütülen abonelik sözleşmelerinden kaynaklanan icra \
+        takiplerinin, haciz aşamasına kadar olan işlemlerinin icra \
+        dairesine gelinmeden, UYAP ve PTT entegrasyonu ile oluşturulan bir \
+        sistem üzerinden sanal ortamda yürütülmesine imkan tanıyan bir \
+        takip prosedürüdür.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Genel \
+        olarak; faturalardan kaynaklanan(internet, elektrik, su vb.) borçlar, \
+        MTS sistemi üzerinden icra takibi olarak başlatılmaktadır.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>Tüketici \
+        Aleyhinde Mts İcra Takibi açıldığını nasıl öğrenebilir ?</b></font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">a) \
+        E-Devlet Sistemi üzerinden, (</font></font></font><a href="https://giris.turkiye.gov.tr/"><font color="#7f7f7f"><font face="Arial, serif"><font size="2" style="font-size: 9pt">https://giris.turkiye.gov.tr/</font></font></font></a><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">)</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">b) \
+        Vatandaş Uyap Portal sisteminden, \
+        (</font></font></font><a href="https://vatandas.uyap.gov.tr/main/vatandas/giris.jsp"><font color="#7f7f7f"><font face="Arial, serif"><font size="2" style="font-size: 9pt">https://vatandas.uyap.gov.tr/main/vatandas/giris.jsp</font></font></font></a><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">)</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">c) \
+        Postane tarafından gönderilmiş olan tebligat (ödeme emri) eline \
+        ulaştığı zaman.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Bu \
+        aşamada sistem ödeme ihtarına Türkiye genelinde geçerli olacak \
+        olan merkezi takip numarası verecektir.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Normalde \
+        Uyap sistemi üzerinden açılmış olan diğer takiplerde Antalya \
+        İcra Müdürlüğü 2020/*******&nbsp; gibi numara verilirken, Mts \
+        takip sistemlerinde Türkiye genelinde geçerli olan takip numarası \
+        verilecektir.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>MTS \
+        (Merkezi Takip Sistemi) icra takibi kendisine ulaştığında \
+        tüketici / borçlu ne yapabilir ?</b></font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Bu \
+        durumda iki seçenek ortaya çıkmaktadır.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">1) \
+        Borçlu Ödeme yapmak isterse, takip masrafları da dahil olmak üzere \
+        güncel borç miktarını MTS’den kontrol ederek PTT veya herhangi \
+        bir banka (internet) şubesinden MTS numarası ilişkilendirmek \
+        suretiyle borcunu yatırabilecektir.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">2) \
+        Borçlu böyle bir borcu kabul etmez ise ; itiraz etmek isterse, \
+        itiraz dilekçesini herhangi bir icra dairesine sunabileceği gibi \
+        (Antalya İcra Müdürlüğü, Burdur İcra Müdürlüğü gibi) Uyap \
+        Vatandaş portal üzerinden elektronik imza kullanarak veya kimlik \
+        tespiti yapılmak suretiyle herhangi bir PTT şubesine de itiraz \
+        edebilecektir.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Bu \
+        internet sayfasında yer alan bilgiler, dokümanlardaki eksiklikler \
+        ya da hatalar sonrasında bu bilgi ve evraklara dayanılarak \
+        yapılacak işlemlerden doğabilecek olan dolayı, doğrudan maddi / \
+        manevi zararlar ve masraflardan hiç bir şekilde sorumluluk kabul \
+        edilemez. Lütfen ofisimizle iletişime geçerek, randevu alarak, \
+        daha sağlıklı bilgiye ulaşın.</font></font></font></p> \
+        <p style="line-height: 108%; margin-bottom: 0.11in"><br/> \
+        <br/> \
+        </p>'),
+        // eslint-disable-next-line no-multi-str
+        subtext: 'MTS uzun adı Merkezi takip sistemi olan  ve 06.12.2018 tarihinde  \
+        yayınlanmış olan “ABONELİK SÖZLEŞMESİNDEN KAYNAKLANAN PARA ALACAKLARINA İLİŞKİN \
+        TAKİBİN BAŞLATILMASI USULÜ HAKKINDA KANUN” ile mevzuatımıza giren bir alacak  \
+        tahsili yöntemidir..',
+        writer: 'Kilic | Cetinkaya'
     }
 
 ]

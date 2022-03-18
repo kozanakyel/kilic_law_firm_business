@@ -73,10 +73,18 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
+                            <Link to="/etahsilat" onClick={menuToggleHandler}>
+                                E-Tahsilat
+                            </Link>
+                        </li>
+                        {/**
+                         <li>
                             <Link to="/makaleler" onClick={menuToggleHandler}>
                                 Makaleler
                             </Link>
                         </li>
+                         */}
+                        
                     </ul>
                     <button onClick={ctaClickHandler}>ILETISIM</button>
                 </nav>

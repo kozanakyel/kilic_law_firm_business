@@ -34,7 +34,7 @@ const Contactmap = () => {
                     
                    <div className="contact-mail">
                        <BsMailbox2 size={32} />
-                       <p>info@kilic@gmail.com</p>
+                       <p> info@kiliccetinkaya.com</p>
                    </div>   
                    <div className="contact-address">
                        <AiFillHome size={32} />

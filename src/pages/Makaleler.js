@@ -3,6 +3,8 @@ import Navbar from "../components/navbar/Navbar";
 import Header from "../components/header/Header";
 import ContactBar from "../components/contactbar/ContactBar";
 import Footer from "../components/footer/Footer";
+import Blogcard from "../components/blogcard/Blogcard";
+import { useParams } from "react-router";
 
 import head_data from './../data/head_data';
 import articles from "../data/articles_content";
@@ -31,9 +33,33 @@ const Makale = ({ article }) => {
           </>
 }
 
+const getArticle = (id) => {
+    return articles.find((article) => article.id === id);
+}
+
 
 
 const Makaleler = () => {
+    let param = useParams();
+    let article = getArticle(parseInt(param.makalelerId, 10));
+
+    const makalelerMainPart = (param, articles) => {
+        if(typeof param.makalelerId === "string")
+            return <Makale 
+                    article={ article }
+                    />;
+        else {articles.map((arc, i) => {
+            return <div key={i}>
+                { console.log(arc.id + " ") }
+                    <Makale 
+                    article={ arc }
+                   />
+                  </div>                
+            }
+        )}
+
+    }
+
     return <>
         <Navbar />
         <Header 
@@ -45,14 +71,7 @@ const Makaleler = () => {
             <h1>Makalelerimiz</h1>
         </div>
 
-        {articles.map((article, i) => {
-            return <div key={i}>
-                    <Makale 
-                      article={ article }
-                  />  
-                  </div>             
-            }
-        )}
+        { makalelerMainPart(param, articles) }
         
         
         <Footer />

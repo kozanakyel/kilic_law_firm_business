@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import './blogcard.scss';
 
 const Blogcard = ({ article }) => {
     return <>
     <div className="lf__blog-container">
     <div className='lf__blog-container__blog'> 
-        <Link to="/makaleler" className="blog-link" >
+        <Link to={`/makaleler/${article.id}`} key={article.id} className="blog-link" >
             <div className="blog-text-content">
                 <div className='lf__blog-container__blog-text'>
                    <p>{article.date} </p>
@@ -22,6 +22,7 @@ const Blogcard = ({ article }) => {
             
         </Link>
     </div>
+    <Outlet />
     </div>
     
         

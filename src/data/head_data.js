@@ -18,6 +18,10 @@ const head_data = [
     {
         img: '/images/header_img/antep5.jpeg',
         text: 'İyi bir hukukçu, suçluları cezalandırmaktan çok, suçu önlemeyi düşünmelidir. (Charles de Montesquieu)'
+    },
+    {
+        img: '/images/header_img/etahsilat.jpg',
+        text: 'Hiçbir şey devlete yasalara saygılı olmak kadar yaraşmaz. Justiniaus Kanunları'
     }
 
 ]
