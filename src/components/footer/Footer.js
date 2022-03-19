@@ -9,7 +9,7 @@ const Footer = () => (
     <div className="gpt3__footer-links_header">
         <h1>KILIC&CETINKAYA</h1>
         <h3>HUKUK BUROSU</h3>
-        <p>İnternet sitemizde yer alan bilgiler Kadim Hukuk ve Danışmanlık tarafından, 1136 sayılı Avukatlık Kanunu ve Türkiye Barolar Birliği’nin meslek kuralları bağlamında sadece bilgi amaçlı olarak temin edilmektedir.</p>
+        <p>İnternet sitemizde yer alan bilgiler Kilic|Cetinkaya Hukuk Burosu tarafından, 1136 sayılı Avukatlık Kanunu ve Türkiye Barolar Birliği’nin meslek kuralları bağlamında sadece bilgi amaçlı olarak temin edilmektedir.</p>
         
       </div>
     </div>

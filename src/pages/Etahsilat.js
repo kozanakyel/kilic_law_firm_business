@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import Navbar from "../components/navbar/Navbar";
+import ContactBar from "../components/contactbar/ContactBar";
 
 import head_data from './../data/head_data';
 import './etahsilat.scss';
@@ -68,6 +69,7 @@ const Etahsilat = () => {
           text= { head_data[5].text }   
         />
         <Etbutton />
+        <ContactBar />
         <Footer />
     
     </>

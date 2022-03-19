@@ -19,6 +19,7 @@ function App() {
                 <Route path="/ekibimiz" element={<Ekibimiz />} />
 
                 <Route path="/makaleler" element={<Makaleler />}>
+                    
                     <Route path=":makalelerId" element={<Makaleler />} />
                 </Route >
 

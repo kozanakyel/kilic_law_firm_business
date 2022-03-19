@@ -9,9 +9,13 @@ const Eachslide = ({ staff }) => {
     return <>
         <div className="each-slide">
             <div className='img-content' style={{'backgroundImage': `url(${process.env.PUBLIC_URL + staff.img})` }}>
+                
+            </div>
+            <div className='name-role'>
                 <span>{staff.name}</span>
                 <span>{staff.role}</span>
             </div>
+            
         </div>
     </>
 }

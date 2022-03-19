@@ -44,19 +44,19 @@ const Makaleler = () => {
     let article = getArticle(parseInt(param.makalelerId, 10));
 
     const makalelerMainPart = (param, articles) => {
-        if(typeof param.makalelerId === "string")
+        if(param.makalelerId)
             return <Makale 
                     article={ article }
                     />;
         else {articles.map((arc, i) => {
             return <div key={i}>
                 { console.log(arc.id + " ") }
-                    <Makale 
+                    <Blogcard 
                     article={ arc }
                    />
                   </div>                
             }
-        )}
+        )};
 
     }
 
@@ -66,14 +66,12 @@ const Makaleler = () => {
           img= { head_data[4].img }
           text= { head_data[4].text }   
         />
+    
+        <Makale 
+            article={ article }
+        />
+        
         <ContactBar />
-        <div className="article-entry-title">
-            <h1>Makalelerimiz</h1>
-        </div>
-
-        { makalelerMainPart(param, articles) }
-        
-        
         <Footer />
         
     </>;

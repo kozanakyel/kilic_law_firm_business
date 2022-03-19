@@ -418,7 +418,7 @@ const articles = [
     },
     {
         id: 105,
-        title: 'Icra Takibine NAsil Itiraz Edilir',
+        title: 'Icra Takibine Nasil Itiraz Edilir?',
         date: '13.10.2020',
         // eslint-disable-next-line no-multi-str
         content: Parser('<p> \

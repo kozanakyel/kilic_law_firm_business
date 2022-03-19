@@ -46,10 +46,10 @@
     align-items: center;
 }
 
-.each-slide > div {
+.each-slide > .img-content {
     display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
     background-size:cover;
 
@@ -59,14 +59,21 @@
     height: 400px;
     border-radius: 30px;
   }
+
+  .each-slide > .name-role{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
   
   .each-slide span {
 
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
-    color: $dark2;
+    color: $light;
   }
 
   @media screen and (max-width: 1200px){
