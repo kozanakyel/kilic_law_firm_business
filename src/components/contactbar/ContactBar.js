@@ -15,7 +15,8 @@ const ContactBar = () => {
                 <h3>ILETISIM: </h3>
                 { /*<p><a href={ info_contact.tel }><BsTelephoneInbound size={16} color='#222222'/> { info_contact.tel } </a> </p> */}
                 <p><a href={ info_contact.email }><BsMailbox size={16} color='#222222'/> { info_contact.email } </a> </p>
-                <p>Adres: Muratpasa mah. yenimahalle sok no 20/4</p>
+                <p>Adres: Konuksever mah. H. Çoban İş Merkezi
+                       No:135B/B K:4, D:14</p>
                 
             </div>
     </>)

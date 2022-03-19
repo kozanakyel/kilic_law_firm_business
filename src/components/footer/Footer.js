@@ -22,7 +22,7 @@ const Footer = () => (
         <p>info@kiliccetinkaya.com</p>
       </div>
 
-      <div className="gpt3__footer-links_div">
+      <div className="gpt3__footer-links_div" style={{ justifyContent: "center" }}>
           <h4>Adres/Konum</h4>
           <iframe 
             title="This is address of law-firm"

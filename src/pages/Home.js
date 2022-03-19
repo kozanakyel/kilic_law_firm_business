@@ -25,8 +25,8 @@ const About = () => {
             </div>
             <div className="contain-fpart">
                 <div className='lf__about-fpart'>
-                    <p>Ofisimiz Antalya’da olup Burdur, Isparta, Denizli ve Türkiye’nin 
-                        diğer önemli ticari merkezlerindeki bürolarla işbirliği yapmaktayız.
+                    <p>Ofisimiz <span style={{ textDecoration: "underline" }}>Antalya’da olup Burdur, Isparta, Denizli ve Türkiye’nin 
+                        diğer önemli ticari merkezlerindeki bürolarla işbirliği yapmaktayız. </span>
                     Büromuz, bireysel ve kurumsal müvekkillerine, ceza davaları, ticaret hukuku, 
                     enerji hukuku, rekabet hukuku, aile hukuku (boşanma, miras, mal paylaşımı, velayet, nafaka, 
                     soy bağı davaları vs.), 
