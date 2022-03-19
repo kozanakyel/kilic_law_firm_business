@@ -415,6 +415,521 @@ const articles = [
         TAKİBİN BAŞLATILMASI USULÜ HAKKINDA KANUN” ile mevzuatımıza giren bir alacak  \
         tahsili yöntemidir..',
         writer: 'Kilic | Cetinkaya'
+    },
+    {
+        id: 105,
+        title: 'Icra Takibine NAsil Itiraz Edilir',
+        date: '13.10.2020',
+        // eslint-disable-next-line no-multi-str
+        content: Parser('<p> \
+        <font color="#636363"><font face="Verdana, serif"><font size="4" style="font-size: 15pt">Hakkınızda \
+        açılmış İCRA takibine nasıl itiraz edersiniz?</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>Hakkınızda \
+        açılmış ilamsız İcra Takibine nasıl itiraz edersiniz?</b></font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Hakkınızda \
+        açılmış olan icra takibine karşı ödeme emrinin tebliğinden \
+        itibaren 7 içerisinde icra dairesine gidip itirazda \
+        bulunabilirsiniz. Eğer açılan icra takibi yaşadığınız şehirde \
+        değilse bulunduğunuz yerleşim yerinde bulunan icra dairesine \
+        giderek itirazınızın ilgili icra dairesine gönderilmesini talep \
+        edebilirsiniz. Süresi içerisinde itiraz etmediğiniz takdirde takip \
+        kesinleşecek ve alacaklının malvarlığınıza haciz koyma hakkı \
+        doğacaktır. Bu sebeple taraflara gönderilen icra ödeme emirleri \
+        dikkate alınmalı ve haksız bir takip olması durumunda 7 gün \
+        içerisinde itiraz edilmelidir.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="3" style="font-size: 12pt"><b>İcra \
+        İnkar Tazminatı</b></font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">İtiraz \
+        ederken dikkat edilecek diğer bir husus ise&nbsp;haksız yere \
+        yapılan itirazlarda %20 oranında icra inkar \
+        tazminatına&nbsp;hükmedileceğidir. Bu sebeple alacaklı olduğunu \
+        iddia eden tarafa ilamsız takipte bahsedilen miktar kadar likit bir \
+        borcunuz bulunmakta ise haksız yere yapacağınız itiraz borcunuzu \
+        %20 oranında arttıracak ve ek olarak mahkeme masrafları ve \
+        yargılama giderleri de tarafınıza yüklenecektir.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="3" style="font-size: 12pt"><b>Gecikmiş \
+        İtiraz</b></font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">İtirazınızın \
+        7 günlük süresini elinizde olmayan ve hastalık, yangın vb.haklı \
+        bir sebep ile geçirmiş iseniz&nbsp;gecikmiş itiraz müessesesi&nbsp;ile \
+        itirazını yapabilme hakkınız bulunmaktadır.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Gecikmiş \
+        itiraz yoluna engelin kalkmasından itibaren üç gün içinde ve \
+        paraya çevirme işlemi bitinceye kadar başvurabilirsiniz.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Süresinde \
+        itiraz edememeniz halinde hakkınızı genel yetkili mahkemelerde \
+        açılan menfi tespit davası ile ileri sürebilirsiniz.</font></font></font></p> \
+        <p> \
+        <font color="#636363">&nbsp;</font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>Hakkınızda \
+        haksız takip açılması durumunda tazminat hakkınız var mıdır?</b></font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Haksız \
+        icra takibi yapıldığı takdirde haksız takibin borçlusu itiraz \
+        sürelerini kaçırmadan sebeplerini de belirterek İcra İflas \
+        Kanununa uygun olan itiraz dilekçesiyle borca itiraz etmelidir. \
+        İtiraz takibinde dava açma yükü alacaklıdadır. Ancak bu \
+        aşamadan sonra takibe devam edilebilmesi dava ile yapılan itirazın \
+        kaldırılması ya da iptaline karar verilmesi gerekir.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Haksız \
+        icra takibine uğrayan alacaklı kendisine dava açılmasını \
+        beklemeden alacaklının haksız icra takibi yaptığı gerekçesiyle \
+        zararlarını tazmin ettirmek için alacaklıya karşı maddi ve \
+        manevi tazminat davası açabilir. Bu tazminat davası genel \
+        mahkemelerde açılır. İcra takibinin haksız olarak açıldığının \
+        ve zararların ispatı gerekmektedir.&nbsp;</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>ANTALYA \
+        GENEL İCRA MÜDÜRLÜĞÜNE</b></font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>DOSYA \
+        NO :</b></font></font></font><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">&nbsp;2020/******** \
+        Esas</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>İTİRAZ \
+        EDEN (BORÇLU) :</b></font></font></font><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">&nbsp;********** \
+        Tc: *******<br/> \
+        ADRES:*******</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>VEKİLLERİ \
+        :</b></font></font></font><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">&nbsp;Av.Abdulkadir \
+        ÇETİNKAYA&amp;Av. Kubilay Yasin Kılıç<br/> \
+        </font></font></font><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><i>Konusever \
+        mah. Kızılırmak cad. H.Çoban İş Merk. No:135B/B \
+        Muratpaşa/ANTALYA</i></font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>ALACAKLI \
+        :</b></font></font></font><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">&nbsp;***********</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>VEKİLLERİ \
+        :</b></font></font></font><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">&nbsp;******</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>KONU \
+        :</b></font></font></font><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">&nbsp;Tarafımıza \
+        **/**/**** tarihinde tebliğ edilen ödeme emrine ilişkin \
+        itirazlarımızı içerir.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>AÇIKLAMALAR</b></font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Mezkur \
+        sayılı dosyaya istinaden ödeme emri tarafımıza 30/12/2019 \
+        tarihinde tebliğ edilmiştir. Süresi içerisinde itiraz etmekteyiz.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Alacaklı \
+        görünen tarafından müvekkil aleyhine açılan takipteki BORCA \
+        İTİRAZ EDİYORUZ. Alacaklı görünene müvekkilimizin böyle bir \
+        borcu yoktur. Dolayısıyla bu bedel haksızdır.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Müvekkil \
+        aleyhine başlatılan icra takibinde müvekkilin borçlu olduğu \
+        herhangi bir rakam bulunmamaktadır. Bu sebeple borca, faize ve her \
+        türlü fer’ilerine AÇIKÇA İTİRAZ EDİYORUZ.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">İcra \
+        takibi yetkili icra dairesinde açılmamıştır. Müvekkilin adresi \
+        yukarıda da görüldüğü üzere Burdur ili Merkez ilçesi \
+        sınırlarındadır. İcra takibi Burdur İcra Dairelerinde açılması \
+        gerekirken Samsun’da açılmıştır. Bu sebeple yetkiye de itiraz \
+        ediyoruz. Dosyanın yetkili İcra dairesi olan Burdur icra \
+        dairelerine gönderilmesini talep ediyoruz.</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Her \
+        ne kadar tebligat zarfında ödeme emri ve dayanak belge sureti \
+        ektedir denilse de gönderilen ödeme emri ekinde dayanak belgeler \
+        eksiktir, takibe bu yönüyle itiraz ediyoruz.<br/> \
+        <br/> \
+        </font></font></font><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><b>SONUÇ \
+        ve İSTEM:</b></font></font></font><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">&nbsp;Açıklanan \
+        nedenlerle müvekkile **/**/**** tarihinde tebliğ edilen ödeme \
+        emrine yasal süresi içinde itiraz ediyoruz. Öncelikle Yetkili İcra \
+        Daireleri ********* İCRA DAİRELERİ olduğundan yetkisiz icrada \
+        açılan icra dosyasına YETKİ HUSUSUNDA İTİRAZ EDİYORUZ. \
+        Müvekkilden talep edilen alacak gerçek ve mevcut bir alacak \
+        olmadığından ve müvekkilimize herhangi bir borç bildiriminde \
+        bulunulmadığından talep edilen esas alacak, faiz, her türlü \
+        fer’ileri ve tüm harç ve sairlerine de itiraz ediyoruz. \
+        Müvekkilimizin alacaklı görünene hiçbir borcu yoktur. BORCUN \
+        TAMAMINA, FAİZE, YETKİYE, FAİZ ORANINA ve HER TÜRLÜ FER’İLERİNE \
+        açıkça itiraz ettiğimizi bildirir takibin itirazımız \
+        neticesinde takibin DURDURULMASINI arz ve talep ederiz.**/**/****</font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><i>İtiraz \
+        Eden(Borçlu) Vekileri</i></font></font></font><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><br/> \
+        </font></font></font><font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt"><i>Av.Abdulkadir \
+        ÇETİNKAYA&amp;Av.Kubilay Yasin KILIÇ</i></font></font></font></p> \
+        <p> \
+        <font color="#636363"><font face="Arial, serif"><font size="2" style="font-size: 9pt">Bu \
+        internet sayfasında yer alan bilgiler, dokümanlardaki eksiklikler \
+        ya da hatalar sonrasında bu bilgi ve evraklara dayanılarak \
+        yapılacak işlemlerden doğabilecek olan dolayı, doğrudan maddi / \
+        manevi zararlar ve masraflardan hiç bir şekilde sorumluluk kabul \
+        edilemez. Lütfen ofisimizle iletişime geçerek, randevu alarak, \
+        daha sağlıklı bilgiye ulaşın.</font></font></font></p> \
+        <p></a> \
+        <br/> \
+        <br/> \
+        </p>'),
+        // eslint-disable-next-line no-multi-str
+        subtext: 'Hakkınızda \
+        açılmış olan icra takibine karşı ödeme emrinin tebliğinden \
+        itibaren 7 içerisinde icra dairesine gidip itirazda \
+        bulunabilirsiniz. Eğer açılan icra takibi yaşadığınız şehirde \
+        değilse bulunduğunuz yerleşim yerinde bulunan icra dairesine \
+        giderek itirazınızın ilgili icra dairesine gönderilmesini talep \
+        edebilirsiniz.',
+        writer: 'Kilic | Cetinkaya'
+    },
+    {
+        id: 106,
+        title: 'Anlasmali Bosanma',
+        date: '08.11.2021',
+        // eslint-disable-next-line no-multi-str
+        content: Parser('<p><a name="_GoBack"></a> \
+        <font color="#000000"><font face="Helvetica, serif"><font size="5" style="font-size: 18pt"><b>Anlaşmalı \
+        Boşanma Davası</b></font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Helvetica, serif"><font size="4" style="font-size: 13pt"><b>Anlaşmalı \
+        boşanma davası</b></font></font></font><font color="#000000"><font face="Helvetica, serif"><font size="4" style="font-size: 13pt">, \
+        en az 1 yıl süren evliliklerde, eşlerin birlikte başvurması ya \
+        da bir eşin diğerinin açtığı davayı kabul etmesi hâlinde söz \
+        konusu olur. Kanun, bu hallerde evlilik birliğinin temelinden \
+        sarsıldığı, taraflar da boşanmada anlaşmışsa evliliğin \
+        sürdürülmesinin manasız olduğu kabul edilir. Bu hâlde boşanma \
+        kararı verilebilmesi için, hâkimin tarafları bizzat dinleyerek \
+        iradelerinin serbestçe açıklandığına kanaat getirmesi ve \
+        boşanmanın malî sonuçları ile çocukların durumu hususunda \
+        taraflarca kabul edilecek düzenlemeyi uygun bulması şarttır. \
+        Hâkim, tarafların ve çocukların menfaatlerini göz önünde \
+        tutarak bu anlaşmada gerekli gördüğü değişiklikleri yapabilir. \
+        Bu değişikliklerin taraflarca da kabulü hâlinde boşanmaya \
+        hükmolunur. Bu hâlde tarafların ikrarlarının hâkimi \
+        bağlamayacağı hükmü uygulanmaz (TMK 166/3).</font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Helvetica, serif"><font size="4" style="font-size: 13pt">Anlaşmalı \
+        boşanma davası açılabilmesi için Medeni Kanun’un aradığı \
+        şartlar şunlardır:</font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Helvetica, serif"><font size="4" style="font-size: 13pt"><b>1. \
+        Evlilik ilişkisi en az 1 yıl sürmelidir.</b></font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Helvetica, serif"><font size="4" style="font-size: 13pt">Anlaşmalı \
+        boşanma davası açılabilmesi için evlilik ilişkisinin en az 1 \
+        yıl sürmesi gerekir. Evlilik ilişkisinden kasıt, taraflar \
+        arasında yapılan resmi nikahtan itibaren en az bir yıllık bir \
+        sürenin geçmiş olmasıdır. Taraflar arasında imam nikahı, \
+        nişanlılık ya da birlikte yaşama gibi hallerde geçen süre 1 \
+        yıllık süreye dahil edilemez.</font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Helvetica, serif"><font size="4" style="font-size: 13pt"><b>2. \
+        Eşlerin mahkemeye beraber başvurmalı ya da bir eşin açtığı \
+        boşanma davasını diğer eş kabul etmelidir.</b></font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Helvetica, serif"><font size="4" style="font-size: 13pt">Taraflar \
+        ortak bir dilekçe ile başvurmaları sonucu anlaşmalı boşanma \
+        gerçekleşebileceği gibi eşlerden birinin usulüne uygun olarak \
+        açmış olduğu boşanma davasındaki tüm talepleri diğer tarafın \
+        kabul etmesi ile de anlaşmalı boşanma gerçekleşebilir. Ayrıca \
+        boşanma davası çekişmeli olarak açılmış ve devam etmekte iken \
+        tarafların anlaşmalı boşanma iradelerini açıklayan protokolü \
+        mahkemeye sunmaları ya da duruşma esnasında anlaşma şartlarını \
+        duruşma zaptına geçirmeleri ile de anlaşmalı boşanma \
+        gerçekleşebilir.</font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Helvetica, serif"><font size="4" style="font-size: 13pt"><b>3. \
+        Taraflar hakim huzurunda boşanma iradelerini açıklamalıdır.</b></font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Helvetica, serif"><font size="4" style="font-size: 13pt">Kanun, \
+        tarafların iradelerini hakim huzurunda özgürce açıklayabilmeleri \
+        için anlaşmalı boşanma için bu şartı getirmiştir. Hakim \
+        tarafların iradelerinin herhangi bir nedenle fesada uğradığını \
+        tespit ederse boşanma talebini ret edecektir. Tarafların boşanma \
+        iradelerini hakim huzurunda bizzat açıklamaları gerekmektedir. \
+        Boşanma, kişiye sıkı sıkıya bağlı haklardan olduğu için \
+        boşanma avukatının tarafların yerine geçerek boşanma iradesini \
+        açıklaması mümkün değildir.</font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Helvetica, serif"><font size="4" style="font-size: 13pt"><b>4. \
+        Hakim, boşanmanın mali sonuçları ile çocukların durumu ile \
+        ilgili düzenlemeyi uygun bulmalıdır.</b></font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Helvetica, serif"><font size="4" style="font-size: 13pt">Tarafların, \
+        hakime sunmuş oldukları anlaşma şartlarındaki maddi-manevi \
+        tazminat, nafaka (İştirak ve yoksulluk nafaksı), çocukların \
+        velayeti, çocuklar ile kişisel münasebet gibi hususların hakim \
+        tarafından uygun bulunması gerekir. Hakim gerek görürse bu \
+        şartlarda değişikliğe gidebilir. Ancak hakimin yapmış olduğu \
+        bu değişiklikler taraflarca kabul edilmesi durumunda anlaşmalı \
+        boşanma gerçekleşebilir. Aksi durumda dava çekişmeli boşanma \
+        davasına döner. Ancak uygulamada hakimler genelde tarafların \
+        anlaşma sağladıkları şartları kabul ettiklerinden bu durum ile \
+        pek karşılaşılmaz.</font></font></font></p> \
+        <p> \
+        <br/> \
+        <br/> \
+        </p> \
+        <p> \
+        <font color="#000000"><font face="Helvetica, serif"><font size="4" style="font-size: 13pt">Anlaşmalı \
+        boşanma davası için bir avukata danışmanız süreci daha \
+        sağlıklı hale getirecektir.</font></font></font></p> \
+        <p> \
+        <br/> \
+        <br/> \
+        </p> \
+        <p style="line-height: 108%; margin-bottom: 0.11in"><br/> \
+        <br/> \
+        </p>'),
+        // eslint-disable-next-line no-multi-str
+        subtext: 'En az 1 yıl süren evliliklerde, eşlerin birlikte başvurması ya \
+        da bir eşin diğerinin açtığı davayı kabul etmesi hâlinde söz \
+        konusu olur. Kanun, bu hallerde evlilik birliğinin temelinden \
+        sarsıldığı, taraflar da boşanmada anlaşmışsa evliliğin \
+        sürdürülmesinin manasız olduğu kabul edilir.',
+        writer: 'Kilic | Cetinkaya'
+    },
+    {
+        id: 107,
+        title: 'Cekismeli Bosanma',
+        date: '05.12.2021',
+        // eslint-disable-next-line no-multi-str
+        content: Parser('<p> \
+                <font color="#1d1d1d"><font face="Arial, serif"><font size="5" style="font-size: 18pt"><b>Çekişmeli \
+        Boşanma Davası</b></font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><b>Çekişmeli \
+        boşanma&nbsp;davası </b></font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">şu \
+        hallerde olacaktır:</font></font></font></p> \
+        <ul> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Evliliğin \
+            bitmesini isteyen ve bu sebeple boşanmak isteyen bir eş varken \
+            diğer eş buna yanaşmamaktadır,</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Evliliğin \
+            bitmesini ve boşanmayı her iki eşte istiyordur ancak evliliğin \
+            sona ermesi ile doğacak hukuki durumlar konusunda bir anlaşmaya \
+            varamamışlardır. Örnek verecek olursak, Nafaka miktarında \
+            anlaşamamak, çocukların velayeti konusunda anlaşamamak, tazminat \
+            hususunda anlaşamamak gibi,</font></font></font></p> \
+        </ul> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Bu \
+        iki sebebin neticesinde meydana gelen boşanma davasına \
+        ise&nbsp;</font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><i>çekişmeli \
+        boşanma davası</i></font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;denmektedir. \
+        Eğer böyle bir durumda iseniz alanında uzman bir&nbsp;</font></font></font><a href="https://www.hukukidurum.com/"><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><u>Ankara \
+        boşanma avukatı</u></font></font></font></a><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">ndan \
+        yardım almanızı tavsiye ederiz.</font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Yukarıdaki \
+        paragrafta belirtilen sebeplerden bağımsız olarak kanun koyucu, \
+        genel&nbsp;</font></font></font><a href="https://www.hukukidurum.com/bosanma-sebepleri-nelerdir/"><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><u>boşanma \
+        sebepleri</u></font></font></font></a><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;olarak \
+        birtakım hususları düzenleme altına alma gereği \
+        görmüştür.&nbsp;</font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><i>Çekişmeli \
+        boşanma</i></font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;davası \
+        açmak isteyen taraflar, boşanma iddialarını bu sebeplerin \
+        varlığına dayandırmak durumundadır. Bunlar;</font></font></font></p> \
+        <ul> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Zina \
+            (Türk Medeni Kanunu madde 161),</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Hayata \
+            kast ve kötü davranış (Türk Medeni Kanunu madde 162),</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Suçlu \
+            olmak ve haysiyetsiz yaşam sürmek (Türk Medeni Kanunu madde 163),</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Terk \
+            (Türk Medeni Kanunu madde 164),</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Akıl \
+            sağlığının yerinde olmaması (Türk Medeni Kanunu madde 165)</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Evlilik \
+            birliğinin temelden sarsılması (Türk Medeni Kanunu madde \
+            166)’dir.</font></font></font></p> \
+        </ul> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><b>Çekişmeli \
+        boşanma davaları</b></font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;uygulamada, \
+        yukarıda sayılan sebepler arasından “evlilik birliğinin \
+        sarsılması” nedeniyle çok sık karşımıza çıkmaktadır. Bu \
+        sebebe biraz değinmek gerekirse; Türk Medeni Kanunu madde 166 \
+        uyarınca düzenleme altına alınmıştır. Gerekçesi ise mevcut \
+        olan evliliğin ve o ana dek devam eden ortak hayatı devam \
+        ettirmenin artık taraflardan beklenemeyecek boyutta çekilmez bir \
+        hal alması durumunda eşlerden birisi boşanma davası \
+        açabilecektir. Davayı açan eşin, mevcut kusuru diğerine oranla \
+        daha ağır ise davalının itiraz hakkı bulunmaktadır.&nbsp;</font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><i>Çekişmeli \
+        boşanma davası</i></font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;da \
+        bu durumda tezahür etmektedir. Ancak şunu da belirtmek gerekir ki \
+        yapılan itiraz, niteliği itibari ile hakkın kötüye kullanılması \
+        şeklinde ise ve evliliğin devam etmesi davalı ve varsa çocuklar \
+        için bir yarar sağlamayacaksa hakim, itirazı dikkate almadan \
+        boşanma kararı verebilecektir.</font></font></font></p> \
+        <p> \
+        <font color="#1d1d1d"><font face="Arial, serif"><font size="5" style="font-size: 18pt"><b>Çekişmeli \
+        Boşanma Davası Ne Kadar Sürer?</b></font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><b>Çekişmeli \
+        boşanma</b></font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;davası \
+        birçok hususu barındırmaktadır. Bu barındırılan hususlar da \
+        davanın süresine doğrudan etki etmektedirler. Buna göre;</font></font></font></p> \
+        <ul> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Tarafların \
+            haklı olup olmamaları,</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Karşı \
+            tarafın kusurluluğunun ortaya konulup konulmaması,</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">İddiaların \
+            ispat edilmesi,</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Delillerin \
+            toplanarak mahkemeye sunulması ve mahkemenin değerlendirmede \
+            bulunması,</font></font></font></p> \
+        </ul> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Ve \
+        bunlara benzer birçok etken boşanma davası süresinin \
+        belirlenmesinde etkili olmaktadır. Ancak söylemek gerekir ki \
+        davalar, ortalama 1 yıl ile 3 yıl arasında sürmektedir. Ancak \
+        tavsiyemizi yinelemek isteriz ki uzman bir boşanma avukatından \
+        yardım almanız, bu&nbsp;</font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><i>çekişmeli \
+        boşanma davası</i></font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;sürecinde \
+        hak kayıplarına maruz kalmamanız adına önemli bir etkendir.</font></font></font></p> \
+        <p> \
+        <font color="#1d1d1d"><font face="Arial, serif"><font size="5" style="font-size: 18pt"><b>Çekişmeli \
+        Boşanma Davasına Tarafların Katılması Gerekir mi?</b></font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><b>Çekişmeli \
+        boşanma davası</b></font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;açan \
+        eşin, bir avukatı yoksa kendisi bizzat duruşmada hazır bulunmak \
+        zorundadır. Eğer duruşmaya katılmazsa dosyası, 3 ay içerisinde \
+        yenileninceye kadar mahkeme tarafından işlemden kaldırılacaktır. \
+        Fakat davacı, kendisini temsil etmesi açısından bir boşanma \
+        avukatına vekalet verebilir. Bu durumda ise duruşmalara bizzat \
+        katılmasına gerek kalmayacaktır. Boşanma avukatı, davacı yerine \
+        duruşmaya katılır ve davayı onun yerine takip edebilir. Bu \
+        bakımdan boşanma avukatından yardım almak önemli bir role \
+        sahiptir.</font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><b>Çekişmeli \
+        boşanma davası</b></font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">nda \
+        davalı konumundaki eşin ise davacıdan farklı olarak duruşmaya \
+        katılması gereklilik arz etmemektedir. Dava, davalının yokluğunda \
+        da devam edecektir. Fakat belirtmek gerekir ki duruşmalara \
+        katılmayan davalı, itiraz etme hakkından da feragat etmiş \
+        sayılacaktır. Bu nedenle davalının gerek bizzat kendisi gerekse \
+        vekalet verdiği boşanma avukatı aracılığı ile duruşmalara \
+        katılması, itiraz hakkı ve diğer nedenler açısından önemlidir.</font></font></font></p> \
+        <p> \
+        <font color="#1d1d1d"><font face="Arial, serif"><font size="5" style="font-size: 18pt"><b>Ayrılık \
+        Davası Nedir?</b></font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><b>Çekişmeli \
+        boşanma davası</b></font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;ya \
+        da&nbsp;</font></font></font><a href="https://www.hukukidurum.com/anlasmali-bosanma-protokolu-ve-dilekcesi/"><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><u>anlaşmalı \
+        boşanma</u></font></font></font></a><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;davasından \
+        önce boşanma davası şartlarını taşıyan ve dava açmaya \
+        yetkisi bulunan taraf, bu davalardan önce ayrılık talep \
+        edebilecektir. Boşanma sebebinin ispatlanıp ispatlanmadığına \
+        bakılarak hakim tarafından boşanma veya ayrılığa \
+        hükmedilecektir. Ancak taleple bağlılık ilkesi gereği hakim, \
+        ayrılık talebi karşısında boşanmaya hükmedemeyecektir. Açılan \
+        davada talep edilen boşanma ise hakim, ortak hayatın yeniden \
+        kurulabilmesinin mümkün olduğuna kanaat getirirse ayrılığa \
+        karar verebilecektir. Hakim tarafından ayrılık için verilen süre \
+        1yıl ila 3 yıl arasındadır. Hakim vereceği sürenin başlayacağı \
+        tarih, ayrılık hükmünün kesinleştiği andır. Hakim tarafından \
+        verilen sürenin dolması ile beraber ayrılıkta sona erecektir. \
+        Ortak hayat bu süre içerisinde tekrar kurulmadıysa da \
+        artık&nbsp;</font></font></font><a href="https://www.hukukidurum.com/bosanma-davasi-acma/"><font color="#cf2e2e"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><u>boşanma \
+        davası açma</u></font></font></font></a><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;mümkün \
+        olacaktır. Hakim bu durumda tekrar ayrılık kararı veremez.</font></font></font></p> \
+        <p> \
+        <font color="#1d1d1d"><font face="Arial, serif"><font size="5" style="font-size: 18pt"><b>Boşanma \
+        ve Ayrılık Davası Devam Ederken Nafakaya Karar Verilebilir Mi?</b></font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><b>Çekişmeli \
+        boşanma</b></font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;davası, \
+        anlaşmalı boşanma davası ve ayrılık davasında taraflar; dava \
+        haklarının güvence altına alınması amacıyla kanunda belirtilen \
+        birtakım&nbsp;</font></font></font><a href="https://www.hukukidurum.com/ihtiyati-tedbir/"><font color="#cf2e2e"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><u>ihtiyati \
+        tedbir</u></font></font></font></a><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">leri \
+        talep edebileceklerdir. Bu tedbirlere kısaca göz atacak olursak;</font></font></font></p> \
+        <ul> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Nafaka,</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Çocukların \
+            velayeti,</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Çocuklara \
+            yönelik bakıma katılınması,</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Ortak \
+            konuttan ayrılan eşin barınması,</font></font></font></p> \
+            <li><p> \
+            <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Ortak \
+            malların yönetimi,</font></font></font></p> \
+        </ul> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Ve \
+        benzeri hususlar geçici tedbir kapsamındadır.</font></font></font></p> \
+        <p> \
+        <font color="#1d1d1d"><font face="Arial, serif"><font size="5" style="font-size: 18pt"><b>Çekişmeli \
+        ve Anlaşmalı Boşanma ile Ayrılık Davaları Hangi Mahkemede \
+        Açılır?</b></font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><b>Çekişmeli \
+        boşanma</b></font></font></font><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;davası, \
+        anlaşmalı boşanma davası ve ayrılık davasına bakmaya yetkili \
+        mahkeme ilgili kanun gereğince;&nbsp;boşanma davasını açan \
+        tarafın ya da davalı tarafın yerleşim yeri veya boşanma davası \
+        açılmadan 6 ay önce birlikte ikamet ettikleri yer mahkemesidir. \
+        Görevli mahkeme ise TMK uyarınca Aile Mahkemeleridir. Eğer ki \
+        yetki sınırları içerisinde aile mahkemesi bulunmuyorsa bu sefer, \
+        Aile Mahkemesi sıfatı ile Asliye Hukuk Mahkemesi boşanma davasına \
+        bakabilecektir. Anlaşmalı boşanma davalarında ise özel bir durum \
+        bulunmaktadır. Buna göre, anlaşan tarafların mahkemenin yetkisine \
+        dair bir itirazda bulunmaları muhtemel olmayacağı için anlaşmalı \
+        boşanma davaları, herhangi bir adliyede bulunan Aile Mahkemelerinde \
+        eğer yoksa Aile Mahkemesi sıfatı ile Asliye Hukuk Mahkemesinde \
+        davayı açabileceklerdir.</font></font></font></p> \
+        <p> \
+        <font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">Boşanma \
+        davalarında, yurt dışındaki vatandaşlar açısından ise yine \
+        özel bir durum bulunmaktadır. Buna göre yurt dışında yaşayan \
+        ve anlaşmalı ya da çekişmeli fark etmeksizin; boşanmaya karar \
+        veren vatandaşlar, yurtdışında boşanma davası açamayacaklardır. \
+        Yetkili mahkemenin belirlenmesi hususunda ise&nbsp;</font></font></font><a href="https://www.resmigazete.gov.tr/eskiler/2007/12/20071212-1.htm" target="_blank"><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt"><u>5718 \
+        sayılı Kanun Madde 41</u></font></font></font></a><font color="#000000"><font face="Arial, serif"><font size="3" style="font-size: 11pt">&nbsp;esas \
+        alınacaktır.</font></font></font></p> \
+        <p style="line-height: 108%; margin-bottom: 0.11in"><a name="_GoBack"></a> \
+        <br/> \
+        <br/> \
+        </p>'),
+        // eslint-disable-next-line no-multi-str
+        subtext: 'Evliliğin \
+        bitmesini ve boşanmayı her iki eşte istiyordur ancak evliliğin \
+        sona ermesi ile doğacak hukuki durumlar konusunda bir anlaşmaya \
+        varamamışlardır. Örnek verecek olursak, Nafaka miktarında \
+        anlaşamamak, çocukların velayeti konusunda anlaşamamak, tazminat \
+        hususunda anlaşamamak gibi',
+        writer: 'Kilic | Cetinkaya'
     }
 
 ]
