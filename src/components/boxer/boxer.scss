@@ -69,7 +69,7 @@
   font-weight: 300;
   font-size: 13px;
   line-height: 24px;
-
+text-align: justify;
   color: $dark2;
 }
 
@@ -104,13 +104,13 @@
   }
 
   .lf__fields-container__field{
-    background: $dark2;
-    color: $emphas;
+    background: $light;
+    color: $dark2;
     p{
-      color: $light;
+      color: $dark2;
     }
     h1{
-      color: $light;
+      color: $dark2;
     }
   }
 
