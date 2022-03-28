@@ -25,16 +25,24 @@ const About = () => {
             </div>
             <div className="contain-fpart">
                 <div className='lf__about-fpart'>
-                    <p>Ofisimiz <span style={{ textDecoration: "underline" }}>Antalya’da olup Burdur, Isparta, Denizli ve Türkiye’nin 
-                        diğer önemli ticari merkezlerindeki bürolarla işbirliği yapmaktayız. </span>
-                    Büromuz, bireysel ve kurumsal müvekkillerine, ceza davaları, ticaret hukuku, 
-                    enerji hukuku, rekabet hukuku, aile hukuku (boşanma, miras, mal paylaşımı, velayet, nafaka, 
-                    soy bağı davaları vs.), 
-                    iş hukuku, tazminat davaları, icra takipleri gibi alanlarda danışmanlık ve dava takip hizmeti sunmaktadır.
-                    Ofis olarak müvekkillerimizin başarısını, kendi başarımızdan öncelikli tutarız. Müvekkillerimizin değişen ihtiyaçlarına daha doğru ve etkin bir şekilde cevap verebilmek için onların faaliyet gösterdiği sektörlerdeki gelişmeleri yakından takip eder, bu sektörlerde sadece hukuki değil ticari bilgileri de edinerek bilgilerimizi derinleştiririz. Bu amaçlarla ulusal ve uluslararası mesleki ve ticari dernek ve 
-                     kuruluşların çalışmalarına etkin olarak katılır, bilgi ve tecrübelerimizi paylaşarak katkıda bulunuruz.
-                    Büromuz, hizmetlerini müvekkillerimizin değişen ihtiyaçlarına uygun olarak geliştirmeye ve yenilikçi, 
-                    kaliteli hizmetler sunmaya kararlıdır 
+                    <p>
+                    Kılıç & Çetinkaya Hukuk Ofisi 2018 yılında Avukat Abdulkadir Çetinkaya ve 
+                    Avukat Kubilay Yasin Kılıç işbirliği ile avukat ortaklığı şeklinde Antalya’da 
+                    kurulmuştur. Genç ve dinamik kadrosu sayesinde bireysel ve kurumsal müvekkillerimizin 
+                    ihtiyaçları doğrultusunda en iyi sonuca en kısa zamanda ulaşma gayesiyle çalışmaktayız.
+                    </p>
+                    <p>
+                    Avukat Abdulkadir Çetinkaya 2016 yılında Akdeniz Üniversitesi  Hukuk fakültesinden 
+                    mezun olmuştur. Öğrencilik yıllarında başlayan Antalya serüvenine meslek hayatını da 
+                    ekleyerek stajını Antalya barosunda tamamlamıştır.  Avukat Kubilay Yasin Kılıç 2017 
+                    Yılında Süleyman Demirel Üniversitesi Hukuk fakültesinden mezun olmuştur. 
+                    Meslek hayatını Antalya’da sürdürmek isteyen Kubilay Yasin Kılıç’ta stajını Antalya 
+                    Barosunda tamamlamış ve mesleğini Antalya’da icra ettirmektedir.  
+                    </p>
+                    <p>
+                    Ofisimiz ağırlıklı olarak icra-iflas dosyaları ve şirket danışmanlığı ile ilgilenmektedir.
+                     Referanslarımızda da yer alan çok sayıda firma için gerek icra-iflas hukuku gerekse
+                      hukuki danışmanlık hizmeti verilmektedir.
                     </p>
                     
                 </div>

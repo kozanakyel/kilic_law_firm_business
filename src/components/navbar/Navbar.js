@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className={classes.header__content}>
                 <div className="left-top-logo">
                     <Link to="/" className={classes.header__content__logo}>                    
-                        Kilic | Cetinkaya 
+                    Kılıç | Çetinkaya 
                         <p>Hukuk Burosu</p>
                     </Link>
                 </div>
