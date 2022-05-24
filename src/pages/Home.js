@@ -12,18 +12,9 @@ import head_data from "./../data/head_data";
 import { faaliyet_data_sm } from "../data/faaliyet_data";
 import articles from "../data/articles_content";
 
-import { useTranslation } from "react-i18next";
-import "../i18n.js";
+
 import React, { useState } from "react";
 
-const languages = [
-    { value: "", text: "Options" },
-  { value: "tr", text: "Turkce" },
-  { value: "en", text: "English" },
-  { value: "uk", text: "Ukranien" },
-  { value: "ru", text: "Russian" },
-  { value: "de", text: "Germany" },
-];
 
 const About = () => {
   return (
@@ -76,27 +67,19 @@ const About = () => {
 };
 
 const Home = () => {
-  const { t } = useTranslation();
 
-  const [lang, setLang] = useState("tr");
-
-  const handleChange = (e) => {
-    setLang(e.target.value);
-    let loc = "http://localhost:3000/";
-    window.location.replace(loc + "?lng=" + e.target.value);
-  };
 
   return (
     <>
       <Navbar />
       
-      <Header img={head_data[2].img} text={t(head_data[2].text)} />
+      <Header img={head_data[2].img} text={head_data[2].text} />
 
       <About />
       <Faaliyetler data_fa={faaliyet_data_sm} />
       <Slideshow />
       <div className="article-entry-title">
-        <h1>{t("Makalelerimiz")}</h1>
+        <h1>{"Makalelerimiz"}</h1>
       </div>
       <div className="home-blog-card">
         {articles.map((article, i) => {
