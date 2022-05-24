@@ -13,12 +13,12 @@ import { faaliyet_data_sm } from "../data/faaliyet_data";
 import articles from "../data/articles_content";
 
 
-import React, { useState } from "react";
+import React from "react";
 
 
 const About = () => {
   return (  
-    
+
     <>
       {/**
      <select value={lang} onChange={handleChange}>

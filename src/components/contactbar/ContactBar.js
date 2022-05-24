@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BsTelephoneInbound, BsMailbox } from 'react-icons/bs';
+import { BsMailbox } from 'react-icons/bs';
 import './contactbar.scss';
 
 const info_contact = { 

@@ -3,7 +3,7 @@ import ContactBar from "../components/contactbar/ContactBar";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import Navbar from "../components/navbar/Navbar";
-import { BsFillTelephoneFill, BsMailbox2, } from 'react-icons/bs';
+import { BsMailbox2, } from 'react-icons/bs';
 import { AiFillHome } from 'react-icons/ai';
 
 import head_data from './../data/head_data';

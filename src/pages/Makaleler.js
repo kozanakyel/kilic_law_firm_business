@@ -3,7 +3,6 @@ import Navbar from "../components/navbar/Navbar";
 import Header from "../components/header/Header";
 import ContactBar from "../components/contactbar/ContactBar";
 import Footer from "../components/footer/Footer";
-import Blogcard from "../components/blogcard/Blogcard";
 import { useParams } from "react-router";
 
 import head_data from './../data/head_data';
@@ -43,22 +42,7 @@ const Makaleler = () => {
     let param = useParams();
     let article = getArticle(parseInt(param.makalelerId, 10));
 
-    const makalelerMainPart = (param, articles) => {
-        if(param.makalelerId)
-            return <Makale 
-                    article={ article }
-                    />;
-        else {articles.map((arc, i) => {
-            return <div key={i}>
-                { console.log(arc.id + " ") }
-                    <Blogcard 
-                    article={ arc }
-                   />
-                  </div>                
-            }
-        )};
-
-    }
+   
 
     return <>
         <Navbar />
