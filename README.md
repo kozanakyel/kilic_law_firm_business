@@ -4,7 +4,7 @@ This project was Freelanced by me for KILIC&CETINKAYA law firm with Reactjs.
 Responsive and interractive website for customer request. Deployment and development via the Heroku for client testing.
 All the rights reserved by the Kilic&Cetinkaya hukuk burosu any information related this firm. Not copy accepted.
 
-- https://law-firm-kilic.herokuapp.com/
+- https://serene-citadel-43745.herokuapp.com/
 
 ## Available Scripts
 
